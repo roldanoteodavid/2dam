@@ -1,0 +1,13 @@
+Elección interfaz:
+- Se la he tenido que enseñar a usar a mi abuelo y yo me liaba
+- Compleja, poca claridad y simplicidad
+- Botones innecesarios que solo hacen la aplicación más compleja
+- Poca eficiencia de uso, pulsas botones que no llevan a ningún sitio útil
+
+Cambio:
+- Manteniendo jerarquía visual original de la aplicación
+- Mayor navegación intuitiva
+- Mejora de accesibilidad haciendo más sencillo encontrar una parada específica
+- Para hacer una carga progresiva y no cargar todos los buses a la vez el usuario elige un rango de horas a las que salen los próximos buses
+-  He creado la función “próximos buses” para llevar a la mínima carga cognitiva al usuario permitiendo que los usuarios completen tareas sin tener que pensar demasiado.
+- Eficiencia en la Información: En la pantalla principal, hemos agregado un cuadro que muestra los autobuses que deseas seguir sin necesidad de acceder a una parada específica. Esto ahorra tiempo a los usuarios al eliminar la necesidad de buscar su parada y la espera de carga de datos.

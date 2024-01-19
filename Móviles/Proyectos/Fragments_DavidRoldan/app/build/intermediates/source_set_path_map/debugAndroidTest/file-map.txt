@@ -1,0 +1,6 @@
+com.example.fragments_davidroldan.test.app-core-1.5.0-0 C:\Users\david\.gradle\caches\transforms-3\3a1cd3f42432eebaca410206e2e0eaac\transformed\core-1.5.0\res
+com.example.fragments_davidroldan.test.app-annotation-experimental-1.3.0-1 C:\Users\david\.gradle\caches\transforms-3\5d285471de0115cfff2c4963ddd84728\transformed\annotation-experimental-1.3.0\res
+com.example.fragments_davidroldan.test.app-androidTest-2 C:\Users\david\AndroidStudioProjects\Fragments_DavidRoldan\app\build\generated\res\resValues\androidTest\debug
+com.example.fragments_davidroldan.test.app-mergeDebugAndroidTestResources-3 C:\Users\david\AndroidStudioProjects\Fragments_DavidRoldan\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.fragments_davidroldan.test.app-mergeDebugAndroidTestResources-4 C:\Users\david\AndroidStudioProjects\Fragments_DavidRoldan\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.fragments_davidroldan.test.app-merged_res-5 C:\Users\david\AndroidStudioProjects\Fragments_DavidRoldan\app\build\intermediates\merged_res\debugAndroidTest

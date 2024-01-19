@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.login_davidroldan.framework.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newOrderFragment"
+        android:name="com.example.login_davidroldan.framework.neworder.NewOrderFragment"
+        android:label="fragment_neworder"
+        tools:layout="@layout/fragment_neworder" >
+        <action
+            android:id="@+id/action_newOrderFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+        <argument
+            android:name="idcustomer"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.example.practicaexamenprimertrim.framework.orders.OrdersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" >
+        <action
+            android:id="@+id/action_ordersFragment_to_newOrderFragment"
+            app:destination="@id/newOrderFragment" />
+        <action
+            android:id="@+id/action_ordersFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="idcustomer"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/autorFragment"
+        android:name="com.example.login_davidroldan.framework.autores.AutorFragment"
+        android:label="AutorFragment" >
+        <action
+            android:id="@+id/action_autorFragment_to_librosFragment"
+            app:destination="@id/librosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/librosFragment"
+        android:name="com.example.login_davidroldan.framework.libros.LibrosFragment"
+        android:label="LibrosFragment" >
+        <argument
+            android:name="idAutor"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_librosFragment_to_autorFragment"
+            app:destination="@id/autorFragment" />
+    </fragment>
+</navigation>

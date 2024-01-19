@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servidor:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6545062a-4306-4498-8738-6dbf86fa3db9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2YRvtj1yjNiiNobH1NHnUFpxnxf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17 (3)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/IdeaProjects/multimodulo_DavidRoldan&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\resources\fxml\actores" />
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\resources\fxml\peliculas" />
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\resources\fxml" />
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\java\ui\screens\directores" />
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\resources\config" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="common.Constantes" />
+      <recent name="common.Constants" />
+      <recent name="common.SQLQueries" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\IdeaProjects\multimodulo_DavidRoldan\cliente\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jakarta.errores" />
+      <recent name="domain.modelo.errores" />
+      <recent name="domain.usecases" />
+      <recent name="ui.screens.actores.actores_delete" />
+      <recent name="ui.screens.peliculas.peliculas_delete" />
+    </key>
+  </component>
+  <component name="RunManager" selected="GlassFish Server.GlassFish 6.8.0">
+    <configuration name="DIJavafx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.main.DIJavafx" />
+      <module name="cliente" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish 6.8.0" type="GlassfishConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="GlassFish 6.8.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="servidor:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="adminServerHost" value="" />
+          <option name="clusterName" value="" />
+          <option name="credentialAlias" value="3b0f0cd6-b4d4-4781-8cfc-3ed4c4fd6b10" />
+          <option name="secured" value="true" />
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="caa8bb4f-6c64-4cb1-a1e1-29e7d2e7bbca" />
+              <id>caa8bb4f-6c64-4cb1-a1e1-29e7d2e7bbca</id>
+            </TransportTarget>
+          </option>
+          <credential-alias>3b0f0cd6-b4d4-4781-8cfc-3ed4c4fd6b10</credential-alias>
+          <secured>true</secured>
+          <admin-server-host />
+          <cluster-name />
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="caa8bb4f-6c64-4cb1-a1e1-29e7d2e7bbca" />
+              <id>caa8bb4f-6c64-4cb1-a1e1-29e7d2e7bbca</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="servidor:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DIJavafx" />
+      <item itemvalue="GlassFish Server.GlassFish 6.8.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DIJavafx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6545062a-4306-4498-8738-6dbf86fa3db9" name="Changes" comment="" />
+      <created>1700501424304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700501424304</updated>
+      <workItem from="1700501425413" duration="3419000" />
+      <workItem from="1700558483139" duration="11286000" />
+      <workItem from="1700650825961" duration="16623000" />
+      <workItem from="1700736469267" duration="84000" />
+      <workItem from="1700736626506" duration="652000" />
+      <workItem from="1700739631870" duration="994000" />
+      <workItem from="1700755675223" duration="71742000" />
+      <workItem from="1701070176031" duration="5249000" />
+      <workItem from="1701076646153" duration="288000" />
+      <workItem from="1701076973583" duration="523000" />
+      <workItem from="1701083322973" duration="81000" />
+      <workItem from="1701119338504" duration="621000" />
+      <workItem from="1701121070934" duration="61000" />
+      <workItem from="1701160426586" duration="11000" />
+      <workItem from="1701272910105" duration="13590000" />
+      <workItem from="1702543819244" duration="604000" />
+      <workItem from="1702991565936" duration="1978000" />
+      <workItem from="1702994941702" duration="34000" />
+      <workItem from="1702995443138" duration="2034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.this$0" custom="java.lang.reflect.Proxy,java.lang.reflect.InvocationHandler" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

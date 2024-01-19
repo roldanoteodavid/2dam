@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Adivina el N&uacute;mero</title>
+</head>
+<body>
+<h1>Juego de Adivinar el N&uacute;mero</h1>
+<p>Intenta adivinar el n&uacute;mero entre 1 y 10.</p>
+
+<form method="get">
+    <label for="guess">Tu Adivinanza:</label>
+    <input type="number" id="guess" name="guess" min="1" max="10" required>
+    <button type="submit">Enviar</button>
+</form>
+
+<p th:if="${message}" th:text="${message}" style="color: green;"></p>
+<p th:if="${error}" th:text="${error}" style="color: red;"></p>
+
+<p>Intentos: <span th:text="${contador}"></span>/5</p>
+
+<p th:if="${contador >= 5}">Fin del juego.</p>
+</body>
+</html>

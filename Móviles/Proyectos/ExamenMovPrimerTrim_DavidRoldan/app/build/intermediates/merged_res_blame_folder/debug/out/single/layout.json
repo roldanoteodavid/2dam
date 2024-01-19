@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_detalleequipo.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_detalleequipo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_newjugador.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_newjugador.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\view_equipos.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\view_equipos.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\view_jugador.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\view_jugador.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_jugadores.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_jugadores.xml"
+    },
+    {
+        "merged": "com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:/layout/fragment_newjugador.xml",
+        "source": "com.example.examenmovprimertrim_davidroldan.app-main-50:/layout/fragment_newjugador.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_equipos.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_equipos.xml"
+    }
+]

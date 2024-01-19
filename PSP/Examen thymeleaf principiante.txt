@@ -1,0 +1,40 @@
+De entre las siguientes, cuál SÍ es una vía de configuración de Thymeleaf al usarlo junto a Spring.
+	A través de ficheros de configuración JavaConfig.
+Las expresiones de URL son del tipo:
+	NO Todas son correctas
+De entre las siguientes, cuál no es una función de las expresiones de utilidad de #strings
+	NO  #strings.append(...)
+¿Cuál de las siguientes operaciones aritméticas no es correcta?
+	NO {-2-}
+¿Podemos iterar sobre una secuencia de números y no sobre una colección?
+	 Sí, por ejemplo a través de #numbers.sequence(...)
+Thymeleaf es:
+	Un motor de plantillas
+El atributo fundamental para poder iterar sobre una colección es:
+	 th:each
+Al iterar, Thymeleaf nos ofrece la variable status. ¿Cuál de las siguientes no es una propiedad de la misma?
+	 Todas son propiedades de la variable status
+De entre las siguientes, cuál no es una función de las expresiones de utilidad de #numbers
+	NO  #numbers.sequence(...)
+Los elementos de tipo radio y los check se diferencian en:
+	NO  Los check permiten manejar más de un valor, y los radio son booleanos
+¿Cuántos listados puede haber como máximo en una plantilla?
+	 Todos los que necesitemos
+Al configurar Thymeleaf vía JavaConfig, la clase de configuración debe:
+	NO  Estar anotada con @Configuration
+El atributo que nos permite hacer el bind entre un campo de un formulario y un atributo del command object es:
+	 th:field
+La estructura para construir una URL que tiene parámetros (query) es:
+	NO  @{/.../path?p1=${v1}}
+Las expresiones variables tiene la siguiente sintaxis:
+	${...}
+De entre las siguientes, cuál si es una anotación de validación correcta:
+	 Todas las opciones son correctas
+¿Cuále de las siguientes URLs sería la más adecuada para un formulario de edición, según lo que hemos podido aprender en el curso:
+	 /.../editar/{id}
+De entre las siguientes, ¿cuál sería la forma de cambiar el estilo de las filas impares de una tabla
+	 th:class="${iterStat.odd}? 'odd'"
+La estructura para construir una URL que utiliza variables en el path es:
+	 @{/.../{id}/path(id=${id})}
+El atributo equivalente a una estructura else en un bloque if es:
+	 th:unless

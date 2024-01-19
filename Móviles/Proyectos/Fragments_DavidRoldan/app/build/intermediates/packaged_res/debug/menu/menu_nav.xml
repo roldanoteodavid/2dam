@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/primerFragment"
+        android:icon="@drawable/hippo_solid"
+        android:title="@string/_1_3" />
+    <item
+        android:id="@+id/cuartoFragment"
+        android:icon="@drawable/otter_solid"
+        android:title="@string/_4_6"
+        />
+    <item
+        android:id="@+id/septimoFragment"
+        android:icon="@drawable/shrimp_solid"
+        android:title="@string/_7_9"
+        />
+</menu>

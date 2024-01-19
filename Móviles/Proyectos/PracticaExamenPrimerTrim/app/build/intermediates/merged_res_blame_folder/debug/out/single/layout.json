@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_neworder.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_neworder.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:\\layout\\fragment_orders.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.examenmovprimertrim_davidroldan.app-main-50:\\layout\\fragment_orders.xml"
+    },
+    {
+        "merged": "com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:/layout/view_order.xml",
+        "source": "com.example.examenmovprimertrim_davidroldan.app-main-50:/layout/view_order.xml"
+    },
+    {
+        "merged": "com.example.examenmovprimertrim_davidroldan.app-mergeDebugResources-47:/layout/view_customer.xml",
+        "source": "com.example.examenmovprimertrim_davidroldan.app-main-50:/layout/view_customer.xml"
+    }
+]

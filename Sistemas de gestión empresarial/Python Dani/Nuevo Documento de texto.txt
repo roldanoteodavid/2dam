@@ -1,0 +1,5 @@
+cd C:\Users\david\Documents\DAM\Segundo\Sistemas de gestión empresarial\Python Dani\python>python.exe
+
+cd C:\Users\david\Documents\DAM\Segundo\Sistemas de gestión empresarial\Python Dani\python
+
+python3.exe -m notebook

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_200">#a0fad4</color>
+    <color name="blue_500">#00e6a1</color>
+    <color name="blue_700">#008360</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="tamanyoTexto">60sp</dimen>
+    <string name="_1_3">1-3</string>
+    <string name="_4_6">4-6</string>
+    <string name="_7_9">7-9</string>
+    <string name="app_name">Fragments_DavidRoldan</string>
+    <string name="cuarto">cuarto</string>
+    <string name="ir_cuarto">Ir Cuarto</string>
+    <string name="ir_noveno">Ir Noveno</string>
+    <string name="ir_octavo">Ir Octavo</string>
+    <string name="ir_primero">Ir Primero</string>
+    <string name="ir_quinto">Ir Quinto</string>
+    <string name="ir_segundo">Ir Segundo</string>
+    <string name="ir_septimo">Ir Séptimo</string>
+    <string name="ir_sexto">Ir Sexto</string>
+    <string name="ir_tercero">Ir Tercero</string>
+    <string name="noveno">noveno</string>
+    <string name="octavo">octavo</string>
+    <string name="primero">primero</string>
+    <string name="quinto">quinto</string>
+    <string name="s_ptimo">séptimo</string>
+    <string name="segundo">segundo</string>
+    <string name="sexto">sexto</string>
+    <string name="tercero">tercero</string>
+    <style name="Base.Theme.Fragments_DavidRoldan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorSecondary">@color/blue_700</item>
+        <item name="android:statusBarColor">@color/blue_700</item>
+        <item name="android:fontFamily">@font/ring</item>
+    </style>
+    <style name="Theme.Fragments_DavidRoldan" parent="Base.Theme.Fragments_DavidRoldan"/>
+</resources>

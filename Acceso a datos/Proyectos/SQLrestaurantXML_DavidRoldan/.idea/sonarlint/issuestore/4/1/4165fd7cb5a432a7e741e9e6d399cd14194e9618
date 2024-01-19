@@ -1,0 +1,9 @@
+
+u	java:S116"TRename this field "menu_item" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü˜Ù³ÿÿÿÿÿ8ÿ°í±1
+H
+java:S1128
+"+Remove this unused import 'model.MenuItem'.(¼Ò¿à8Â İÏ²1
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÉÙ°í±1
+\
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8¥°¯í±1

@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_segundo.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_segundo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_hippo_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\hippo_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_noveno.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_noveno.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_otter_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\otter_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_tercer.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_tercer.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_selector_fondo_item.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\selector_fondo_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\menu_menu_nav.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\menu\\menu_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\font_ring.TTF.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\font\\ring.TTF"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_quinto.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_quinto.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_sexto.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_sexto.xml"
+    },
+    {
+        "merged": "com.example.fragments_davidroldan.app-merged_res-47:/layout_activity_main.xml.flat",
+        "source": "com.example.fragments_davidroldan.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.fragments_davidroldan.app-merged_res-47:/menu_menu_nav.xml.flat",
+        "source": "com.example.fragments_davidroldan.app-main-49:/menu/menu_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_shrimp_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\shrimp_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_primer.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_primer.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_seven_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\seven_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_four_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\four_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_cuarto.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_cuarto.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_septimo.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_septimo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\navigation_navigation.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\navigation\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\drawable_uno_solid.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\drawable\\uno_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\layout_fragment_octavo.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_octavo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-merged_res-47:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\mipmap-anydpi\\ic_launcher.xml"
+    }
+]

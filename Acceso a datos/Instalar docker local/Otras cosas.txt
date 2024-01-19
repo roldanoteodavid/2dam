@@ -1,0 +1,5 @@
+docker run -p 3306:3306 --name MySqlContainer -e MYSQL_ROOT_PASSWORD=quevedo2dam -e MYSQL_DATABASE=restaurant -d mysql
+
+
+conectar 
+

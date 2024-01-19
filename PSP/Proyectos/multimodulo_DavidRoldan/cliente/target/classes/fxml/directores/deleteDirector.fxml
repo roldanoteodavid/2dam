@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.directores.directores_delete.DirectorDeleteController">
+    <Label layoutX="235.0" layoutY="26.0" text="Directores">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <TableView fx:id="directoresTable" layoutX="20.0" layoutY="58.0" prefHeight="331.0" prefWidth="530.0">
+        <columns>
+            <TableColumn fx:id="idDirectorColumn" prefWidth="85.0" text="Id" />
+            <TableColumn fx:id="nameDirectorColumn" prefWidth="200.0" text="Name" />
+            <TableColumn fx:id="emailDirectorColumn" prefWidth="150.0" text="Email" />
+            <TableColumn fx:id="dobDirectorColumn" prefWidth="95.0" text="Date of birth" />
+        </columns>
+    </TableView>
+    <Label layoutX="668.0" layoutY="58.0" text="Peliculas director">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <TableView fx:id="peliculasTable" layoutX="578.0" layoutY="83.0" prefHeight="230.0" prefWidth="300.0">
+        <columns>
+            <TableColumn fx:id="idPeliculaColumn" prefWidth="37.59999084472656" text="Id" />
+            <TableColumn fx:id="namePeliculaColumn" prefWidth="113.80001831054688" text="Name" />
+            <TableColumn fx:id="genderPeliculaColumn" prefWidth="64.79998779296875" text="Gender" />
+            <TableColumn fx:id="releasePeliculaColumn" prefWidth="82.4000244140625" text="Release date" />
+        </columns>
+    </TableView>
+    <Button layoutX="578.0" layoutY="348.0" mnemonicParsing="false" onAction="#deleteDirector" text="Delete Director" />
+    <Button layoutX="723.0" layoutY="348.0" mnemonicParsing="false" onAction="#deleteDirectorYPelicula" text="Delete Director y Películas" />
+
+</AnchorPane>

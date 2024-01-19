@@ -1,0 +1,436 @@
+{
+	"info": {
+		"_postman_id": "17c50c78-fb7e-47a2-8aa5-e32dc5eae1cf",
+		"name": "Login_David Roldán",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30235004"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"bart\",\r\n  \"email\": \"davidroldanoteo@gmail.com\",\r\n  \"password\": \"bart\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"maggie\",\r\n  \"email\": \"davidroldanoteo@gmail.com\",\r\n  \"password\": \"maggie\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Login_DavidRoldan-1.0-SNAPSHOT",
+								"api",
+								"login",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Payara Server 6.2023.10 #badassfish"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Servlet/6.0 JSP/3.1 (Payara Server 6.2023.10 #badassfish Java/Azul Systems, Inc./17)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "248"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"email\": \"davidroldanoteo@gmail.com\",\n    \"password\": \"PBKDF2WithHmacSHA256:2048:AGTDAn9VQuLgIRWW6mc9FOyBb1ExpM1XRFIKlY5rm8s=:4Wa7oWsvsLhhGEUQiGPcekJbjKntJEz9rRvJsO1Zjks=\",\n    \"temporalCode\": \"ZWqMppz-_7HLi7zIhD1CYVyAnHiOjlMQJiVzIb8iCko=\",\n    \"username\": \"maggie\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"bart\",\r\n  \"password\": \"bart\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"maggie\",\r\n  \"password\": \"maggie\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Login_DavidRoldan-1.0-SNAPSHOT",
+								"api",
+								"login",
+								"login"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Payara Server 6.2023.10 #badassfish"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Servlet/6.0 JSP/3.1 (Payara Server 6.2023.10 #badassfish Java/Azul Systems, Inc./17)"
+						},
+						{
+							"key": "Authorization",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYWdnaWUiLCJpc3MiOiJkYXZpZCIsImlhdCI6MTcwNDk4NzI5MywiZXhwIjoxNzA0OTg3NDczfQ.KpPXr0YOhspQ7WX6eLfi3pOr0XhTt4EGFbyrZuvJu_Ejg7PRz2JWdhiga16EUMv2Ei-TBZ1mNRtqZUdW2yLfww"
+						},
+						{
+							"key": "RefreshToken",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYWdnaWUiLCJpc3MiOiJkYXZpZCIsImlhdCI6MTcwNDk4NzI5MywiZXhwIjoxNzA0OTk4MDkzfQ.oiJgPArIVvtitkZVhxIzZRzmpD2fZBN7ITEXosDzHGVJnkCA4dNmC0vIt1k6U2REFcuNRCtW7Jag-HjTr_WjsQ"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Get all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYXJ0IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUzNDA2MzcsImV4cCI6MTcwNTM0MDgxN30.WAQn7ybEQ6bcNcWKwXzoP9R3ExPK6wIOEIjNUwYfnWVr8gTjYO-yh18Pa7PwFPPrvS7FWpaiO-68kO3CobSpxw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"customers"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get all",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/customers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Login_DavidRoldan-1.0-SNAPSHOT",
+								"api",
+								"customers"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Payara Server 6.2023.10 #badassfish"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Servlet/6.0 JSP/3.1 (Payara Server 6.2023.10 #badassfish Java/Azul Systems, Inc./17)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "483"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"dob\": \"2000-04-17\",\n        \"email\": \"ann.johnson@gmail.com\",\n        \"firstname\": \"Ann\",\n        \"id\": 2,\n        \"lastname\": \"Johnson\",\n        \"phone\": \"485234911\"\n    },\n    {\n        \"dob\": \"1997-10-11\",\n        \"email\": \"chris.mann@webmail.com\",\n        \"firstname\": \"Christopher\",\n        \"id\": 3,\n        \"lastname\": \"Mann\",\n        \"phone\": \"465834578\"\n    },\n    {\n        \"dob\": \"2023-11-03\",\n        \"email\": \"jgon@gmail.com\",\n        \"firstname\": \"Jorge\",\n        \"id\": 115,\n        \"lastname\": \"González\",\n        \"phone\": \"609887123\"\n    },\n    {\n        \"dob\": \"2023-11-03\",\n        \"email\": \"jgon@gmail.com\",\n        \"firstname\": \"Julián\",\n        \"id\": 161,\n        \"lastname\": \"González\",\n        \"phone\": \"609887123\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Refresh token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/refresh?refreshToken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUxNjk3MDEsImV4cCI6MTcwNTE4MDUwMX0.IHhHlsUu9Bajg_-kpT96ZCvInGltnHtXRgKpqeLEgDmTZfiSC_VPrAc_aL7l2GPnyRYbzqeJNRBuObd5zpvBXQ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"refresh"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUxNjk3MDEsImV4cCI6MTcwNTE4MDUwMX0.IHhHlsUu9Bajg_-kpT96ZCvInGltnHtXRgKpqeLEgDmTZfiSC_VPrAc_aL7l2GPnyRYbzqeJNRBuObd5zpvBXQ"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Refresh token",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/refresh?refreshToken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUxNjk3MDEsImV4cCI6MTcwNTE4MDUwMX0.IHhHlsUu9Bajg_-kpT96ZCvInGltnHtXRgKpqeLEgDmTZfiSC_VPrAc_aL7l2GPnyRYbzqeJNRBuObd5zpvBXQ",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Login_DavidRoldan-1.0-SNAPSHOT",
+								"api",
+								"login",
+								"refresh"
+							],
+							"query": [
+								{
+									"key": "refreshToken",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUxNjk3MDEsImV4cCI6MTcwNTE4MDUwMX0.IHhHlsUu9Bajg_-kpT96ZCvInGltnHtXRgKpqeLEgDmTZfiSC_VPrAc_aL7l2GPnyRYbzqeJNRBuObd5zpvBXQ"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Payara Server 6.2023.10 #badassfish"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Servlet/6.0 JSP/3.1 (Payara Server 6.2023.10 #badassfish Java/Azul Systems, Inc./17)"
+						},
+						{
+							"key": "Authorization",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyb290IiwiaXNzIjoiZGF2aWQiLCJpYXQiOjE3MDUxNjk3MTEsImV4cCI6MTcwNTE2OTg5MX0.cShAzbiye5bWZQVpiR3ywLrcQlrgGLcVQ7huKBFWBwtMXl6saritX__tVJmBKLi1TzWirtzVDALiDgH2E9F5Rg"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Forgot password",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/forgotpassword?username=bart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"forgotpassword"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "bart"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"bart\",\r\n  \"password\": \"test\",\r\n  \"temporalCode\": \"ZJv4wevorE3kWdH37G8dkTrXBw0CHPAJ4-ELCf-6nzU=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/changepassword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"changepassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TwoFactorAuth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"bart\",\r\n  \"temporalCode\": \"evh-fP2eNMqx9vTuZls8hSbCtaw7OvJjMJGFM893Cm4=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Login_DavidRoldan-1.0-SNAPSHOT/api/login/twofa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Login_DavidRoldan-1.0-SNAPSHOT",
+						"api",
+						"login",
+						"twofa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Examen primera eva/examen/examen" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Examen primera eva/examen/examen" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Proyectos/Login_DavidRoldan" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Proyectos/Login_DavidRoldan" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Proyectos/Miprimeraapp_DavidRoldn" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Proyectos/Miprimeraapp_DavidRoldn" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Proyectos/ReclycleView_DavidRoldan" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Proyectos/ReclycleView_DavidRoldan" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Proyectos/Rest_DavidRoldan" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Proyectos/Rest_DavidRoldan" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Móviles/Proyectos/SegundaApp_DavidRoldan" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Móviles/Proyectos/SegundaApp_DavidRoldan" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

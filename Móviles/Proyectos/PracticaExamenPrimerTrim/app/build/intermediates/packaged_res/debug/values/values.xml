@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#01e7b1</color>
+    <color name="orange">#FF5722</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#DB2517</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <string name="add">add</string>
+    <string name="app_name">PracticaExamenPrimerTrim</string>
+    <string name="customer_id">Customer ID:</string>
+    <string name="customerid">customerid</string>
+    <string name="customers">CUSTOMERS</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="delete_selected">delete selected</string>
+    <string name="descripcion">descripcion</string>
+    <string name="email">Email:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="first_name">First Name:</string>
+    <string name="id">ID:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="mesa">Mesa:</string>
+    <string name="name">name</string>
+    <string name="new_order">NEW ORDER</string>
+    <string name="orders">ORDERS</string>
+    <string name="phone">Phone:</string>
+    <string name="search">SEARCH</string>
+    <string name="table_id">Table ID:</string>
+    <string name="table_number">Table number</string>
+    <style name="Base.Theme.PracticaExamenPrimerTrim" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.PracticaExamenPrimerTrim" parent="Base.Theme.PracticaExamenPrimerTrim"/>
+</resources>

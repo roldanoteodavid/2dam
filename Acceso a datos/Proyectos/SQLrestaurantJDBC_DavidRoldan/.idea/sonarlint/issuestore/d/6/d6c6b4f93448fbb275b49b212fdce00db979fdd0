@@ -1,0 +1,15 @@
+
+X
+java:S1141ž"5Extract this nested try block into a separate method.(”£§ùûÿÿÿÿ8òµƒÜ¸1
+S
+java:S1141´"5Extract this nested try block into a separate method.(«°ýÇ8óµƒÜ¸1
+q
+java:S2095C"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¦´áþÿÿÿÿ8¶ë÷ø¸1
+k
+java:S2095P"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾°Àk8µë÷ø¸1
+Y
+java:S2589g"7Remove this expression which always evaluates to "true"(ëº®×ýÿÿÿÿ8¶ë÷ø¸1
+t
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ç½ÙŽÿÿÿÿÿ8éÍ‚Ü¸1
+p
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(œ»Áµ8¸ƒÜ¸1

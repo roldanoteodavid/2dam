@@ -1,0 +1,80 @@
+package common;
+
+public class Constants {
+    private Constants() {
+    }
+
+    public static final String THE_CUSTOMER_LIST_IS_EMPTY = "The customer list is empty";
+    public static final String THE_ORDER_LIST_IS_EMPTY = "The order list is empty";
+    public static final String THERE_IS_AN_EMPTY_FIELD = "There is an empty field.";
+    public static final String CUSTOMER_ADDED = "Customer added";
+    public static final String CUSTOMER_UPDATED = "Customer updated";
+    public static final String CUSTOMER_ADDED_SUCCESSFULLY = "Customer added successfully.";
+    public static final String ERROR_ADDING_CUSTOMER = "Error adding customer.";
+    public static final String ERROR_ADDING_CREDENTIALS = "Error adding credential.";
+    public static final String INCORRECT_USER_OR_PASSWORD = "Incorrect user or password";
+    public static final String ITEM_ADDED = "Item added";
+    public static final String ITEM_ADDED_SUCCESSFULLY = "Item added successfully.";
+    public static final String ITEM_REMOVED = "Item removed";
+    public static final String ITEM_REMOVED_SUCCESSFULLY = "Item removed successfully.";
+    public static final String ORDER_ADDED = "Order added";
+    public static final String ORDER_UPDATED = "Order updated";
+    public static final String ORDER_ADDED_SUCCESSFULLY = "Order added successfully.";
+    public static final String ORDER_DELETED = "Order Deleted";
+    public static final String THE_ORDER_HAS_BEEN_DELETED_SUCCESSFULLY = "The order has been deleted successfully.";
+    public static final String TO_DELETE_AN_ORDER_SELECT_IT_FIRST = "To delete an order select it first.";
+    public static final String TO_DELETE_A_CUSTOMER_SELECT_IT_FIRST = "To delete an customer select it first.";
+    public static final String SELECT_AN_ORDER = "Select an order";
+    public static final String SELECT_A_CUSTOMER = "Select a customer";
+    public static final String ORDER_UPDATED_SUCCESSFULLY = "Order updated successfully.";
+    public static final String CUSTOMER_DELETED = "Customer Deleted";
+    public static final String THE_CUSTOMER_HAS_BEEN_DELETED_SUCCESSFULLY = "The customer has been deleted successfully.";
+    public static final String QUIT_APPLICATION = "Quit application";
+    public static final String CLOSE_WITHOUT_SAVING = "Close without saving?";
+    public static final String DELETE_CUSTOMER = "Delete Customer";
+    public static final String DELETE_ORDER = "Delete Order";
+    public static final String DO_YOU_WANT_TO_DELETE_THE_SELECTED_CUSTOMER = "Do you want to delete the selected customer?";
+    public static final String DO_YOU_WANT_TO_DELETE_THE_SELECTED_ORDER = "Do you want to delete the selected order?";
+    public static final String DELETE_CUSTOMER_AND_ORDERS = "Delete customer and orders";
+    public static final String DELETE_ORDER_AND_ORDERITEMS = "Delete order and order items";
+    public static final String THE_SELECTED_CUSTOMER_HAS_ORDERS_DO_YOU_WANT_TO_DELETE_THE_CUSTOMER_AND_ITS_ORDERS = "The selected customer has orders. Do you want to delete the customer and its orders?";
+    public static final String THE_SELECTED_ORDER_HAS_ORDERITEMS_DO_YOU_WANT_TO_DELETE_THE_ORDER_AND_ITS_ORDERITEMS = "The selected order has order items. Do you want to delete the order and its order items?";
+    public static final String ERROR_DELETING_ORDER = "Error deleting order";
+    public static final String ERROR_SAVING_ORDER = "Error saving order";
+    public static final String ERROR_DELETING_CUSTOMER = "Error deleting customer";
+    public static final String SELECT_AN_ITEM_FOR_DELETING_IT = "Select an item for deleting it.";
+    public static final String ERROR_UPDATING_CUSTOMER = "Error updating customer";
+    public static final String ERROR_UPDATING_ORDER = "Error updating order";
+
+    public static final String THE_CUSTOMER_HAS_ORDERS = "The customer has orders";
+    public static final String ERROR_CONNECTING_DATABASE = "Error connecting database";
+    public static final String ERROR_OBTAINING_CUSTOMERS = "Error obtaining customers";
+    public static final String ERROR_OBTAINING_CUSTOMER = "Error obtaining customer";
+    public static final String ID = "id";
+    public static final String FIRST_NAME = "first_name";
+    public static final String LAST_NAME = "last_name";
+    public static final String EMAIL = "email";
+    public static final String PHONE = "phone";
+    public static final String DATE_OF_BIRTH = "date_of_birth";
+    public static final String ORDER_ID = "order_id";
+    public static final String ORDER_DATE = "order_date";
+    public static final String CUSTOMER_ID = "customer_id";
+    public static final String TABLE_ID = "table_id";
+    public static final String ERROR_OBTAINING_ORDER = "Error obtaining order";
+    public static final String ERROR_OBTAINING_ORDERS = "Error obtaining orders";
+    public static final String ERROR_UPDATING_ORDER_ITEMS = "Error updating order items";
+    public static final String ERROR_SAVING_ORDER_ITEMS = "Error saving order items";
+    public static final String ERROR_OBTAINING_ORDER_ITEMS = "Error obtaining order items";
+    public static final String NO_ORDER_ITEMS_FOR_THIS_ORDER = "No order items for this order";
+    public static final String ERROR_DELETING_ORDER_ITEMS = "Error deleting order items";
+    public static final String ORDER_ITEM_ID = "order_item_id";
+    public static final String MENU_ITEM_ID = "menu_item_id";
+    public static final String QUANTITY = "quantity";
+    public static final String NAME = "name";
+    public static final String DESCRIPTION = "description";
+    public static final String PRICE = "price";
+    public static final String NO_MENU_ITEMS = "No menu items";
+    public static final String NO_TABLES = "No tables";
+    public static final String USER_NAME = "user_name";
+    public static final String PASSWORD = "password";
+}

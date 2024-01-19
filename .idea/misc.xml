@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Móviles/Examen primera eva/examen/examen" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/PSP/Proyectos/Login_DavidRoldan/pom.xml" />
+        <option value="$PROJECT_DIR$/PSP/Proyectos/basemultipantallas/pom.xml" />
+        <option value="$PROJECT_DIR$/PSP/Proyectos/MiPrimerRest_DavidRoldan/pom.xml" />
+        <option value="$PROJECT_DIR$/PSP/Proyectos/ServidorRest_DavidRoldan/pom.xml" />
+        <option value="$PROJECT_DIR$/PSP/Proyectos/SQLrestaurant_DavidRoldan/pom.xml" />
+        <option value="$PROJECT_DIR$/PSP/Proyectos/MiPrimerServer_DavidRoldan/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Mazmorra_VictorMyDavidR/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Modularización Mazmorra_ VictorMyDavidR/mLog/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Modularización Mazmorra_ VictorMyDavidR/mLoad/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Modularización Mazmorra_ VictorMyDavidR/mMove/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Modularización Mazmorra_ VictorMyDavidR/mTree/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/Proyectos/Modularización Mazmorra_ VictorMyDavidR/mazmorra/pom.xml" />
+        <option value="$PROJECT_DIR$/Acceso a datos/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

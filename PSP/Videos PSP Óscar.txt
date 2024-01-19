@@ -1,0 +1,134 @@
+PREGUNTAS ÓSCAR:
+- Se guarda el access token en ram?? clase credentials?
+- campos usuario: role, contraseña temporal, refresh token?, campo de estar validada (1/0), fecha 
+- clase credentials role, contraseña temporal, refresh token?, campo de estar validada + access token??
+- números en fichero config
+- filtros bien?
+- conectar con el móvil con la ip
+
+empezar por login y registro
+
+19/09
+11:01 - Proyecto nuevo
+11:05 - Pom y dependencias necesarias 
+_____________________________________________________________________________
+
+22/09
+8:45-8:50 - ComboBox
+9:18 - Either
+_____________________________________________________________________________
+
+26/09
+API rest
+Themoviedb - API rest películas
+https://opendata.emtmadrid.es/Home
+https://simpsonsapi.000webhostapp.com
+https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset/data?select=datapackage.json
+_____________________________________________________________________________
+
+29/09
+8:52 - Fichero configuración
+9:05 - retrofit
+9:24 - Proyecto con retrofit
+9:46 - RoboPOJO (plugin generar automático clases)
+10:17 - resumen final
+_____________________________________________________________________________
+
+17/10
+MI PRIMER SERVER
+10:36 - Comienzo
+10:50 - Apache Tomcat
+11:07 - Proyecto
+_____________________________________________________________________________
+
+18/10
+12:50 - packaging	
+13:10 - glassfish server
+13:11 - descargar payara
+13:17 - docker
+_____________________________________________________________________________
+
+20/10
+8:49 - beans
+8:58 - Proyecto nuevo
+9:05 - Correr proyecto
+_____________________________________________________________________________
+
+31/10
+10:43 - configurar apirest
+_____________________________________________________________________________
+
+3/11
+10:05 - Poner la app en el payara del instituto
+10:10 - Postman
+_____________________________________________________________________________
+
+14/11
+11:04 - dependencias necesarias pom
+11:07 - o metes ese adapter o no deja meter singles
+11:07 - nueva forma de hacer calls que devuelven single en api
+_____________________________________________________________________________
+
+15/11
+12:50 - Viewmodel javaFX (empieza antes)
+12:58 - Leer either
+13:09 - Login
+_____________________________________________________________________________
+
+17-11
+Requisitos trabajo:
+3 objetos: 1-N y otra relación N-M
+Validaciones varias de fechas y tal, se valida en servicios de cliente y servidor. Comprobar mails, años de nacimiento.
+8:55 - Validación con Either "LoginUseCaseImpl"- doLogin "javafx17_multipantalla"
+9:00 - Validaciones en servicio o ui - PONER EN SERVICIO en el programa
+9:02 - ParseInt en ui
+9:09 - Devolver listado de errores
+9:09 - Servidor
+9:27 - login
+9:30 - UNAUTHORIZED Y FORBIDEN validación login
+9:33 - Usar sesión para guardar el login
+9:34 - inyectar request para comprobar si ha hecho login
+9:39 - Filtro jakarta
+_____________________________________________________________________________
+
+12-12
+
+error 401 - Autentificación
+error 403 - Autorización
+
+10:53 - Mandar mail
+
+11:01 - Capitulo 1: Registro de usuario
+
+11:03 - Pluging Glassfish
+_____________________________________________________________________________
+
+18/12
+
+8:50 - tokens
+
+8:54 - qué es OAuth 2.0
+
+8:57 - qué es un token
+
+9:25 - librerias tokens
+
+9:29 - dependencias
+
+10:04 - ROLES (VER)
+_____________________________________________________________________________
+
+16/01
+
+10:27 - tipos de encriptaciones
+
+10:42 - generar encriptación
+_____________________________________________________________________________
+
+19/01
+
+8::55 - librerías
+
+8:58 - dependencias
+
+9:22 - Generar una clase

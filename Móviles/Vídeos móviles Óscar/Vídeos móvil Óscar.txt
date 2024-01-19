@@ -1,0 +1,118 @@
+16/10
+
+9:04 - Qué es necesario en en el Android Manifest (permiso de Internet y pedir datos de Internet y cargar datos por HTTP)
+
+9:06 - Cargar imágenes
+
+9:07 - Guideline dividir pantalla
+
+9:13 - Función de extensión (mirar)
+
+9:15 - Cargar una imagen
+
+9:18 - Cargar imágenes (más)
+
+9:23 - Capturar error
+
+9:24 - log4j
+
+9:26 - Mandar errores al logcat
+
+9:31 - Dialog mandar alerta de confirmación
+
+9:31 - Cambiar de pantalla y pasar información
+
+9:53 - Grid
+
+9:55 - Iconos animados lottie
+
+10:00 - Snakbar
+
+10:07 - ReciclerView
+
+10:09 - Trabajo de esta semana
+
+10:14 - Moshi
+
+10:16 - LocalTimeDateAdapter
+
+_____________________________________________________________________________
+
+02/11
+
+12:56 dependecias necesarias
+
+
+_____________________________________________________________________________
+
+20/11
+
+8:43 - Para qué sirve fragment
+
+8:53 - XML NavView
+
+8:57 - Material3 bottom nav
+
+9:00 - Crear directory menú
+
+9:02 - Configurar NavView
+
+9:05 - Poner a true el ContainerView!!
+
+9:06 - navigation.xml
+
+9:09 - crear fragment
+
+9:13 - binding fragments
+
+9:20 - unir fragments
+
+9:22 - Pasar argumentos entre fragments
+
+9:28 - juntar pantallas en el main y mandar argumentos
+
+9:33 - groovie (pasar a kts)
+
+9:33 - dependencias
+
+9:35 - recibir argumentos
+
+9:38 - "	"
+
+_____________________________________________________________________________
+
+14/12
+
+13:09 - hacer collect
+
+13:48 - Llamadas con interceptor
+
+13:58 - Entrar al room del móvil
+
+14:08 - LuisCanary UNITY DESDE 0
+
+_____________________________________________________________________________
+
+15/01
+
+8:44 - Explicación lenguajes
+
+8:50 - Crear proyecto compose
+
+9:20 - Definir pantalla
+
+9:29 - Colocar cosas en pantalla
+
+9:46 - Poner box bien
+
+9:55 - Meter caja de texto
+
+10:19 - Resumen
+_____________________________________________________________________________
+
+18/01
+
+13:00 - Meter depencias
+
+13:06 - Meter en strings 
+

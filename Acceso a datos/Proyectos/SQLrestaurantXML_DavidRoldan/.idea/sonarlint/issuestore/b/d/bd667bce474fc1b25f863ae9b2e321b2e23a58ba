@@ -1,0 +1,15 @@
+
+y
+java:S1104)"WMake ordersTable a static final constant or non-public and provide accessors if needed.(•¤é¢øÿÿÿÿ8Ä£ôÖ±1
+v
+java:S1104*"YMake idOrderColumn a static final constant or non-public and provide accessors if needed.(ô£©‡8Ä£ôÖ±1
+x
+java:S1104+"[Make dateOrderColumn a static final constant or non-public and provide accessors if needed.(Ÿõè¨8Ä£ôÖ±1
+|
+java:S1104,"_Make customerOrderColumn a static final constant or non-public and provide accessors if needed.(¨»Ãî8Ä£ôÖ±1
+y
+java:S1104-"\Make tableOrderColumn a static final constant or non-public and provide accessors if needed.(˜……ç8Ä£ôÖ±1
+a
+java:S1117F"DRename "selectedCustomer" which hides the field declared at line 46.(ÜÃñ8â£ôÖ±1
+t
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(…‹÷–øÿÿÿÿ8å£ôÖ±1

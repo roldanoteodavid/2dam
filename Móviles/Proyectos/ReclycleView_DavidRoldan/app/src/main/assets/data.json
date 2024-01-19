@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Homer",
+    "age": 34,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Seguridad Nuclear",
+    "birthdate": "1989-05-12"
+  },
+  {
+    "id": 2,
+    "name": "Apu",
+    "age": 37,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Dependiente",
+    "birthdate": "1986-08-15"
+  },
+  {
+    "id": 3,
+    "name": "Moe",
+    "age": 62,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Tabernero",
+    "birthdate": "1961-02-28"
+  },
+  {
+    "id": 4,
+    "name": "Maude Flanders",
+    "age": 34,
+    "vivo": false,
+    "gender": "Mujer",
+    "occupation": "Desconocida",
+    "birthdate": "1989-11-19"
+  },
+  {
+    "id": 5,
+    "name": "Ralph",
+    "age": 8,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Estudiante",
+    "birthdate": "2015-07-03"
+  },
+  {
+    "id": 6,
+    "name": "Lisa",
+    "age": 9,
+    "vivo": false,
+    "gender": "Mujer",
+    "occupation": "Estudiante",
+    "birthdate": "2014-04-10"
+  },
+  {
+    "id": 7,
+    "name": "Bart",
+    "age": 10,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Estudiante",
+    "birthdate": "2013-06-02"
+  },
+  {
+    "id": 8,
+    "name": "Maggie",
+    "age": 1,
+    "vivo": false,
+    "gender": "Mujer",
+    "occupation": "Bebé",
+    "birthdate": "2022-09-15"
+  },
+  {
+    "id": 9,
+    "name": "Ned Flanders",
+    "age": 60,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Propietario de la Tienda de Artículos Religiosos",
+    "birthdate": "1963-12-05"
+  },
+  {
+    "id": 10,
+    "name": "Marge",
+    "age": 36,
+    "vivo": false,
+    "gender": "Mujer",
+    "occupation": "Ama de Casa",
+    "birthdate": "1987-10-20"
+  },
+  {
+    "id": 11,
+    "name": "Mr. Burns",
+    "age": 100,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Dueño de la Planta Nuclear",
+    "birthdate": "1919-07-11"
+  },
+  {
+    "id": 12,
+    "name": "Smithers",
+    "age": 48,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Asistente Ejecutivo",
+    "birthdate": "1975-03-24"
+  },
+  {
+    "id": 13,
+    "name": "Krusty el Payaso",
+    "age": 45,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Payaso de Televisión",
+    "birthdate": "1978-11-12"
+  },
+  {
+    "id": 14,
+    "name": "Milhouse",
+    "age": 10,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Estudiante",
+    "birthdate": "2013-02-01"
+  },
+  {
+    "id": 15,
+    "name": "Actor Secundario Bob",
+    "age": 42,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Actor secundario",
+    "birthdate": "1981-09-03"
+  },
+  {
+    "id": 16,
+    "name": "Patty Bouvier",
+    "age": 38,
+    "vivo": true,
+    "gender": "Mujer",
+    "occupation": "Empleada de la Compañía de Línea Aérea",
+    "birthdate": "1985-06-15"
+  },
+  {
+    "id": 17,
+    "name": "Barney",
+    "age": 40,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Desempleado",
+    "birthdate": "1983-03-02"
+  },
+  {
+    "id": 18,
+    "name": "Selma Bouvier",
+    "age": 38,
+    "vivo": true,
+    "gender": "Mujer",
+    "occupation": "Empleada de la Compañía de Línea Aérea",
+    "birthdate": "1985-06-15"
+  },
+  {
+    "id": 19,
+    "name": "Wiggum",
+    "age": 48,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Jefe de Policía",
+    "birthdate": "1975-02-23"
+  },
+  {
+    "id": 20,
+    "name": "Nelson",
+    "age": 10,
+    "vivo": true,
+    "gender": "Hombre",
+    "occupation": "Estudiante",
+    "birthdate": "2013-03-17"
+  }
+]

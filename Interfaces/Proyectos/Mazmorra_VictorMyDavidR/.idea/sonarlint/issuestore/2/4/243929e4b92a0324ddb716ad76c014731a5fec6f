@@ -1,0 +1,49 @@
+
+c
+java:S1192X"FDefine a constant instead of duplicating this literal "Oeste" 3 times.(•îàº8Ü”Åÿ¸1
+h
+java:S1192R"FDefine a constant instead of duplicating this literal "Norte" 3 times.(Œıß½ÿÿÿÿÿ8İ”Åÿ¸1
+s
+java:S1104"VMake actualRoom a static final constant or non-public and provide accessors if needed.(Šş¤ù8İ”Åÿ¸1
+s
+java:S1104"QMake north a static final constant or non-public and provide accessors if needed.(Œ‰¡¡üÿÿÿÿ8İ”Åÿ¸1
+n
+java:S1104"QMake south a static final constant or non-public and provide accessors if needed.(Òœ·İ8Ş”Åÿ¸1
+r
+java:S1104"PMake east a static final constant or non-public and provide accessors if needed.(Ûü‹øÿÿÿÿ8Ş”Åÿ¸1
+m
+java:S1104"PMake west a static final constant or non-public and provide accessors if needed.(¥ëú8Ş”Åÿ¸1
+v
+java:S1104"TMake textArea a static final constant or non-public and provide accessors if needed.(´“éÙûÿÿÿÿ8Ş”Åÿ¸1
+|
+java:S1104"ZMake salasVisitadas a static final constant or non-public and provide accessors if needed.(ª³ ãøÿÿÿÿ8«¦Ïÿ¸1
+r
+java:S1104"UMake leftPanel a static final constant or non-public and provide accessors if needed.(‘èÀô8Ş”Åÿ¸1
+x
+java:S1104 "VMake rightPanel a static final constant or non-public and provide accessors if needed.(Ì®×Êøÿÿÿÿ8Ş”Åÿ¸1
+v
+java:S1104!"TMake xmljTree a static final constant or non-public and provide accessors if needed.(ıáşíûÿÿÿÿ8Ş”Åÿ¸1
+M
+java:S1444"0Make this "public static actualRoom" field final(Šş¤ù8ß”Åÿ¸1
+M
+java:S1444"+Make this "public static north" field final(Œ‰¡¡üÿÿÿÿ8ß”Åÿ¸1
+H
+java:S1444"+Make this "public static south" field final(Òœ·İ8ß”Åÿ¸1
+L
+java:S1444"*Make this "public static east" field final(Ûü‹øÿÿÿÿ8ß”Åÿ¸1
+G
+java:S1444"*Make this "public static west" field final(¥ëú8ß”Åÿ¸1
+P
+java:S1444".Make this "public static textArea" field final(´“éÙûÿÿÿÿ8ß”Åÿ¸1
+V
+java:S1444"4Make this "public static salasVisitadas" field final(ª³ ãøÿÿÿÿ8«¦Ïÿ¸1
+L
+java:S1444"/Make this "public static leftPanel" field final(‘èÀô8ß”Åÿ¸1
+R
+java:S1444 "0Make this "public static rightPanel" field final(Ì®×Êøÿÿÿÿ8ß”Åÿ¸1
+P
+java:S1444!".Make this "public static xmljTree" field final(ıáşíûÿÿÿÿ8ß”Åÿ¸1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8á”Åÿ¸1
+Q
+java:S2755Ë"3Disable access to external entities in XML parsing.(ğ¨ºî8·–Åÿ¸1
+D	java:S131®""Add a default case to this switch.(–¤‚Ñıÿÿÿÿ8Í–Åÿ¸1

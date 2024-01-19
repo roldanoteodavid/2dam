@@ -1,0 +1,35 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(Þµµ¢üÿÿÿÿ8ŠßÚÊ³1
+L
+java:S1066r"/Merge this if statement with the enclosing one.(è Áº8‹ßÚÊ³1
+y
+java:S1104"WMake ordersTable a static final constant or non-public and provide accessors if needed.(•¤é¢øÿÿÿÿ8‹ßÚÊ³1
+v
+java:S1104"YMake idOrderColumn a static final constant or non-public and provide accessors if needed.(ô£©‡8‹ßÚÊ³1
+x
+java:S1104"[Make dateOrderColumn a static final constant or non-public and provide accessors if needed.(Ÿõè¨8‹ßÚÊ³1
+|
+java:S1104"_Make customerOrderColumn a static final constant or non-public and provide accessors if needed.(¨»Ãî8‹ßÚÊ³1
+y
+java:S1104"\Make tableOrderColumn a static final constant or non-public and provide accessors if needed.(˜……ç8‹ßÚÊ³1
+z
+java:S1104%"XMake filterButton a static final constant or non-public and provide accessors if needed.(ßÚºåýÿÿÿÿ8‹ßÚÊ³1
+~
+java:S1104&"\Make customerComboBox a static final constant or non-public and provide accessors if needed.(æˆ‡úúÿÿÿÿ8‹ßÚÊ³1
+x
+java:S1104'"VMake itemsTable a static final constant or non-public and provide accessors if needed.(üó°Ûÿÿÿÿÿ8‹ßÚÊ³1
+z
+java:S1104("XMake idItemColumn a static final constant or non-public and provide accessors if needed.(§Ü³“üÿÿÿÿ8‹ßÚÊ³1
+€
+java:S1104)"^Make menuItemItemColumn a static final constant or non-public and provide accessors if needed.(Õ™ÿÖþÿÿÿÿ8‹ßÚÊ³1
+{
+java:S1104*"^Make quantityItemColumn a static final constant or non-public and provide accessors if needed.(‘–Ìð8‹ßÚÊ³1
+T
+java:S2589m"7Remove this expression which always evaluates to "true"(–ä‘•8¤ßÚÊ³1
+‰
+java:S11303"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ú¿ŸÔ8¦ßÚÊ³1
+G
+java:S1905t"*Remove this unnecessary cast to "Integer".(¬Ã¨Í8š·ëÊ³1
+W
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ýÿÿÿÿ8ÇçáÊ³1

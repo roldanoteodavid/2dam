@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.actores.actores_delete.ActoresDeleteController">
+    <Label layoutX="235.0" layoutY="26.0" text="Actores">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <TableView fx:id="actoresTable" layoutX="20.0" layoutY="58.0" prefHeight="331.0" prefWidth="530.0">
+        <columns>
+            <TableColumn fx:id="idActorColumn" prefWidth="85.0" text="Id" />
+            <TableColumn fx:id="nameActorColumn" prefWidth="200.0" text="Name" />
+            <TableColumn fx:id="emailActorColumn" prefWidth="150.0" text="Email" />
+            <TableColumn fx:id="dobActorColumn" prefWidth="95.0" text="Date of birth" />
+        </columns>
+    </TableView>
+    <Label layoutX="603.0" layoutY="58.0" text="Actores seleccionados para borrar">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <TableView fx:id="actoresSelectedTable" layoutX="559.0" layoutY="84.0" prefHeight="258.0" prefWidth="328.0">
+        <columns>
+            <TableColumn fx:id="idActorSColumn" prefWidth="50" text="Id" />
+            <TableColumn fx:id="nameActorSColumn" prefWidth="105.39999389648438" text="Name" />
+            <TableColumn fx:id="emailActorSColumn" prefWidth="81.80003356933594" text="Email" />
+            <TableColumn fx:id="dobActorSColumn" prefWidth="86.4000244140625" text="Date of birth" />
+        </columns>
+    </TableView>
+    <Button layoutX="559.0" layoutY="348.0" mnemonicParsing="false" onAction="#clearTable" text="Vaciar tabla" />
+    <Button layoutX="717.0" layoutY="348.0" mnemonicParsing="false" onAction="#deleteActores" text="Delete actores seleccionados" />
+
+</AnchorPane>

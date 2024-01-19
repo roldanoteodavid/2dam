@@ -1,0 +1,15 @@
+<completedMissions>
+    <player>3</player>
+    <cMission>
+        <id>1</id>
+        <character>Luke</character>
+    </cMission>
+    <cMission>
+        <id>2</id>
+        <character>Luke</character>
+    </cMission>
+    <cMission>
+        <id>1</id>
+        <character>Rogue</character>
+    </cMission>
+</completedMissions>

@@ -1,0 +1,31 @@
+hostname: dam2.mysql.iesquevedo.es 
+port: 3335
+password: quevedo2dam
+
+
+entrar \\10.0.0.3
+
+infoquevedo\2dam
+websockets
+
+*proyectos*
+root
+2dam
+
+OPTIONS
+	logout
+	exit
+CUSTOMERS
+	List
+	Add
+	Update
+	Detete
+
+ORDERS
+	List
+	Add
+	Update
+	Detete
+		filterorder
+			id
+			date

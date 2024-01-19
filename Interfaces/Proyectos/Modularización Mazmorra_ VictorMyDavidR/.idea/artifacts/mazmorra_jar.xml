@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="mazmorra:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mazmorra_jar</output-path>
+    <root id="root">
+      <element id="archive" name="mazmorra.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/mazmorra/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="mazmorra" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/mLoad_jar/mLoad.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/mMove_jar/mMove.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/mTree_jar/mTree.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/mLog_jar/mLog.jar" />
+    </root>
+  </artifact>
+</component>

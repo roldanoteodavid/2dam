@@ -1,0 +1,9 @@
+
+
+java:S14886"fImmediately return this expression instead of assigning it to the temporary variable "customerOrders".(¢•Û’úÿÿÿÿ
+z
+java:S1488D"dImmediately return this expression instead of assigning it to the temporary variable "ordersByDate".(àÊğ
+h
+java:S62048"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+h
+java:S6204F"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹

@@ -1,0 +1,32 @@
+
+x
+java:S1104"VMake itemsTable a static final constant or non-public and provide accessors if needed.(üó°Ûÿÿÿÿÿ8£ŸäÄ³1
+z
+java:S1104"XMake idItemColumn a static final constant or non-public and provide accessors if needed.(§Ü³“üÿÿÿÿ8¤ŸäÄ³1
+€
+java:S1104"^Make menuItemItemColumn a static final constant or non-public and provide accessors if needed.(Õ™ÿÖşÿÿÿÿ8¤ŸäÄ³1
+{
+java:S1104"^Make quantityItemColumn a static final constant or non-public and provide accessors if needed.(‘–Ìğ8¤ŸäÄ³1
+w
+java:S1104"[Make tableOrderField a static final constant or non-public and provide accessors if needed.(®¹ùW8¤ŸäÄ³1
+€
+java:S1104"^Make customerOrderField a static final constant or non-public and provide accessors if needed.(ıí©ùÿÿÿÿÿ8¤ŸäÄ³1
+{
+java:S1104 "YMake menuItemField a static final constant or non-public and provide accessors if needed.(ìÆœúÿÿÿÿ8¤ŸäÄ³1
+
+java:S1104!"]Make quantityItemField a static final constant or non-public and provide accessors if needed.(Ïê²üüÿÿÿÿ8¤ŸäÄ³1
+v
+java:S1104""YMake itemsComboBox a static final constant or non-public and provide accessors if needed.(²Šıä8¤ŸäÄ³1
+~
+java:S1104#"\Make customerComboBox a static final constant or non-public and provide accessors if needed.(æˆ‡úúÿÿÿÿ8¤ŸäÄ³1
+u
+java:S1104$"XMake idOrderField a static final constant or non-public and provide accessors if needed.(Ø×Óü8¤ŸäÄ³1
+‰
+java:S1130."lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ú¿ŸÔ8ĞŸäÄ³1
+F
+java:S1905j")Remove this unnecessary cast to "String".(´¸‚ë8ØŸäÄ³1
+P
+java:S1128
+"3Remove this unused import 'model.xml.OrderItemXML'.(ùÓ«8ÛŸäÄ³1
+L
+java:S1128"/Remove this unused import 'model.xml.OrderXML'.(ˆ„¸í8ÛŸäÄ³1

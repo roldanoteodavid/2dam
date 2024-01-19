@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.characters.CharactersController">
+    <Label layoutX="417.0" layoutY="14.0" text="Personajes">
+        <font>
+            <Font size="22.0"/>
+        </font>
+    </Label>
+    <TableView fx:id="charactersTable" layoutX="26.0" layoutY="75.0" prefHeight="257.0" prefWidth="470.0">
+        <columns>
+            <TableColumn fx:id="nameCharacterColumn" prefWidth="95" text="Nombre"/>
+            <TableColumn fx:id="statusCharacterColumn" prefWidth="95" text="Status"/>
+            <TableColumn fx:id="speciesCharacterColumn" prefWidth="95" text="Especie"/>
+            <TableColumn fx:id="typeCharacterColumn" prefWidth="95" text="Tipo"/>
+            <TableColumn fx:id="genderCharacterColumn" prefWidth="95" text="Género"/>
+        </columns>
+    </TableView>
+    <ComboBox fx:id="filterComboBox" layoutX="26.0" layoutY="341.0" prefHeight="26.0" prefWidth="160.0"
+              promptText="Filter"/>
+    <ComboBox fx:id="speciesComboBox" layoutX="357.0" layoutY="341.0" prefHeight="26.0" prefWidth="138.0"
+              promptText="Species"/>
+    <TextField fx:id="nameCharacterField" layoutX="357.0" layoutY="341.0" prefHeight="26.0" prefWidth="138.0"
+               promptText="Name"/>
+    <Button fx:id="filterButton" layoutX="452.0" layoutY="379.0" mnemonicParsing="false" onAction="#filterCharacters"
+            text="Filter"/>
+    <ImageView fx:id="characterImg" fitHeight="115.0" fitWidth="104.0" layoutX="647.0" layoutY="46.0"
+               pickOnBounds="true" preserveRatio="true"/>
+    <Label layoutX="618.0" layoutY="178.0" text="Aparición en episodios">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Label>
+    <TableView fx:id="episodesTable" layoutX="556.0" layoutY="204.0" prefHeight="257.0" prefWidth="285.0">
+        <columns>
+            <TableColumn fx:id="episodeColumn" prefWidth="83.0" text="Episodio"/>
+            <TableColumn fx:id="nameEpisodeColumn" prefWidth="201.60000000000002" text="Nombre"/>
+        </columns>
+    </TableView>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Fragments_DavidRoldan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorSecondary">@color/blue_700</item>
+        <item name="android:statusBarColor">@color/blue_700</item>
+        <item name="android:fontFamily">@font/ring</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.directores.directores_add.DirectoresAddController">
+    <TableView fx:id="directoresTable" layoutX="20.0" layoutY="58.0" prefHeight="331.0" prefWidth="530.0">
+        <columns>
+            <TableColumn fx:id="idDirectorColumn" prefWidth="85.0" text="Id" />
+            <TableColumn fx:id="nameDirectorColumn" prefWidth="200.0" text="Name" />
+            <TableColumn fx:id="emailDirectorColumn" prefWidth="150.0" text="Email" />
+            <TableColumn fx:id="dobDirectorColumn" prefWidth="95.0" text="Date of birth" />
+        </columns>
+    </TableView>
+    <TextField fx:id="nameField" layoutX="702.0" layoutY="161.0" promptText="Name" />
+    <TextField fx:id="emailField" layoutX="702.0" layoutY="198.0" promptText="Email" />
+    <DatePicker fx:id="dobField" layoutX="702.0" layoutY="237.0" prefHeight="26.0" prefWidth="150.0" promptText="Date of birth" />
+    <Button layoutX="730.0" layoutY="280.0" mnemonicParsing="false" onAction="#addCustomer" text="Add Director" />
+</AnchorPane>

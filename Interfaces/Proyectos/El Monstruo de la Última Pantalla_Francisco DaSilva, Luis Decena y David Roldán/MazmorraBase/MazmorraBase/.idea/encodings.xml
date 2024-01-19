@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CargaTXT/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CargaTXT/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CargaXML/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CargaXML/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GUIEditor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GUIEditor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GUIJuego/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GUIJuego/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Save/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Save/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

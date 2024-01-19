@@ -1,0 +1,30 @@
+- arreglar service (copiar trabajo) ✅
+- errores ✅
+- limpiar ✅
+- alerta al añadir/eliminar... ✅
+- servicio login ✅
+- constantes ✅
+- update orders poner en casillas del lado ✅
+- dropdown menu items (update orders) ✅
+- cargar comboBox ✅
+- error login ✅
+- quitar alerta al cerrar
+- español ✅
+- List all customers ✅
+- List all orders ✅
+- List orders of a specific customer or a specific date (List orders screen - Filter) ✅
+- Append a new order: Make sure that the customer exist ✅
+- Delete a customer: If it has any orders, ask the user, and if so, delete the orders before deleting the customer ✅
+
+1;John;Smith;john.smith@hotmail.com;57411185;2001-09-09
+2;Ann;Johnson;ann.johnson@gmail.com;485234911;2000-04-17
+3;Christopher;Mann;chris.mann@webmail.com;465834578;1997-10-11
+4;Nathalie;Donner;nat.donner@gmail.com;;1986-10-23
+5;Solea;Nickson;solea.nickson@hotmail.com;;2004-10-12
+
+1;2023-09-10 22:30:00;1;2
+2;2023-09-11 14:15:00;2;3
+3;2023-09-11 14:45:00;3;4
+4;2023-09-11 21:00:00;3;5
+5;2023-09-13 14:30:00;5;21
+8;2023-09-30 16:58:51;2;2

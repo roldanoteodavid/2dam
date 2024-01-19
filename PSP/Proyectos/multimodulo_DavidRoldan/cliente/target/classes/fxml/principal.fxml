@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="root" prefHeight="500.0" prefWidth="900.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ui.screens.principal.PrincipalController">
+    <top>
+            <MenuBar fx:id="menuPrincipal">
+                <menus>
+                    <Menu fx:id="menuFile" mnemonicParsing="false" text="Options">
+                        <items>
+                            <MenuItem fx:id="menuItemLogout" mnemonicParsing="false" onAction="#logout" text="Logout"/>
+                            <MenuItem fx:id="menuItemExit" mnemonicParsing="false" onAction="#exit" text="Exit"/>
+                        </items>
+                    </Menu>
+                    <Menu fx:id="menuDirectores" mnemonicParsing="false" text="Directores">
+                        <items>
+                            <MenuItem fx:id="listDirectores" mnemonicParsing="false" onAction="#menuDirectores"
+                                      text="Show directors"/>
+                            <MenuItem fx:id="addDirector" mnemonicParsing="false" onAction="#menuDirectores"
+                                      text="Add director"/>
+                            <MenuItem fx:id="updateDirector" mnemonicParsing="false" onAction="#menuDirectores"
+                                      text="Update director"/>
+                            <MenuItem fx:id="deleteDirector" mnemonicParsing="false" onAction="#menuDirectores"
+                                      text="Delete director"/>
+                        </items>
+                    </Menu>
+                    <Menu fx:id="menuPeliculas" mnemonicParsing="false" text="Peliculas">
+                        <items>
+                            <MenuItem fx:id="deletePelicula" mnemonicParsing="false" onAction="#menuPeliculas"
+                                      text="Delete película"/>
+                        </items>
+                    </Menu>
+                    <Menu fx:id="menuActores" mnemonicParsing="false" text="Actores">
+                        <items>
+                            <MenuItem fx:id="deleteActores" mnemonicParsing="false" onAction="#menuActores"
+                                      text="Delete actores"/>
+                        </items>
+                    </Menu>
+                </menus>
+            </MenuBar>
+    </top>
+</BorderPane>

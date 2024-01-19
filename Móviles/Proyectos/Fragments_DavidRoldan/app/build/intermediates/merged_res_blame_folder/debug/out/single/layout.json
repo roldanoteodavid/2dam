@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.fragments_davidroldan.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.fragments_davidroldan.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_cuarto.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_cuarto.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_octavo.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_octavo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_segundo.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_segundo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_noveno.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_noveno.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_sexto.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_sexto.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_septimo.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_septimo.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_primer.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_primer.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_quinto.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_quinto.xml"
+    },
+    {
+        "merged": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-mergeDebugResources-46:\\layout\\fragment_tercer.xml",
+        "source": "C:\\Users\\david\\.gradle\\daemon\\8.0\\com.example.fragments_davidroldan.app-main-49:\\layout\\fragment_tercer.xml"
+    }
+]

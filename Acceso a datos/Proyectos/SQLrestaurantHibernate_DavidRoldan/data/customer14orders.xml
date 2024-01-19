@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders>
+    <order>
+        <id>40</id>
+        <order_item>
+            <menu_item>New York Cheesecake</menu_item>
+            <quantity>1</quantity>
+        </order_item>
+    </order>
+</orders>

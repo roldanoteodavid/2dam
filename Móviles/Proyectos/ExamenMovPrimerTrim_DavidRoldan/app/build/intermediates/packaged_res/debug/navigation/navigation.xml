@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/equiposFragment">
+
+    <fragment
+        android:id="@+id/equiposFragment"
+        android:name="com.example.examenmovprimertrim_davidroldan.framework.main.EquiposFragment"
+        android:label="fragment_equipos"
+        tools:layout="@layout/fragment_equipos" >
+        <action
+            android:id="@+id/action_equiposFragment_to_detalleEquipoFragment"
+            app:destination="@id/detalleEquipoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jugadoresFragment"
+        android:name="com.example.examenmovprimertrim_davidroldan.framework.jugadores.JugadoresFragment"
+        android:label="fragment_jugadores"
+        tools:layout="@layout/fragment_jugadores" />
+    <fragment
+        android:id="@+id/detalleEquipoFragment"
+        android:name="com.example.examenmovprimertrim_davidroldan.framework.detalleequipo.DetalleEquipoFragment"
+        android:label="fragment_detalleequipo"
+        tools:layout="@layout/fragment_detalleequipo" >
+        <action
+            android:id="@+id/action_detalleEquipoFragment_to_equiposFragment"
+            app:destination="@id/equiposFragment" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_detalleEquipoFragment_to_newJugadorFragment"
+            app:destination="@id/newJugadorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newJugadorFragment"
+        android:name="com.example.examenmovprimertrim_davidroldan.framework.newjugador.NewJugadorFragment"
+        android:label="fragment_newjugador"
+        tools:layout="@layout/fragment_newjugador" >
+        <action
+            android:id="@+id/action_newJugadorFragment_to_detalleEquipoFragment"
+            app:destination="@id/detalleEquipoFragment" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+</navigation>
