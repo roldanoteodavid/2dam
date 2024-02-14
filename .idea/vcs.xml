@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Acceso a datos/Proyectos/Proyectos Lucía/ADUnit1-XMLFiles" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Acceso a datos/Proyectos/Proyectos Lucía/ADUnit2-JDBC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Acceso a datos/Proyectos/Proyectos Lucía/ADUnit2-Spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Acceso a datos/Proyectos/Proyectos Lucía/ADUnit4_MongoDB" vcs="Git" />
   </component>
 </project>
