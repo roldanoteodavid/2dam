@@ -1,0 +1,53 @@
+Poner esto en el cmd con docket abierto:
+docker run --name mongodb -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
+
+
+Abrir terminal del contenedor desde docker:
+mongosh admin -u root -p root
+
+Ver databases:
+show databases
+
+Crear o usar database:
+use (nombre base de datos)
+
+Ver collections:
+show collections
+
+URL:
+mongodb://localhost:27017
+
+
+
+Insertar información:
+use tuBaseDeDatos  // Reemplaza "tuBaseDeDatos" con el nombre de tu base de datos
+
+db.employees.insert([
+  {
+    "Name": "John",
+    "LastName": "Smith",
+    "Age": 19,
+    "Hobbies": ["running", "jumping", "cycling"],
+    "Friends": [
+      { "Name": "Anne", "Age": 27 },
+      { "Name": "Louis", "Age": 28 }
+    ]
+  },
+  {
+    "Name": "John",
+    "LastName": "Cardiff",
+    "Age": 22
+  },
+  {
+    "Name": "Sue",
+    "Age": 27,
+    "Hobbies": ["cycling"]
+  },
+  {
+    "Name": "Peter",
+    "Age": 23,
+    "Friends": 3
+  }
+])
+
+db.employees.find( { Name: { $in: ['Sue', 'John' ] } } )

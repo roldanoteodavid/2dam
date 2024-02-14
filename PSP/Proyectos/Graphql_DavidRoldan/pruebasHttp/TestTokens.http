@@ -1,0 +1,9 @@
+### Login
+POST http://localhost:8081/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "root",
+  "password": "2dam"
+}

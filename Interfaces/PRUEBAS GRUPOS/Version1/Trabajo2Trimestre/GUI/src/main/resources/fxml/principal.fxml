@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" prefHeight="500.0" prefWidth="700.0" stylesheets="@/css/style.css"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ui.pantallas.principal.PrincipalController"  style="-fx-background-color: TAN;">
+    <top>
+        <MenuBar fx:id="menuPrincipal">
+            <Menu fx:id="game" mnemonicParsing="false" text="Game">
+                <MenuItem fx:id="new_game" mnemonicParsing="false" onAction="#play" text="NEW GAME"/>
+                <MenuItem fx:id="load_game" mnemonicParsing="false" text="LOAD GAME"/>
+            </Menu>
+            <Menu fx:id="Options" mnemonicParsing="false" text="Options">
+                <MenuItem fx:id="save_and_quit" mnemonicParsing="false" onAction="#save" text="SAVE AND EXIT"/>
+                <MenuItem fx:id="quit" mnemonicParsing="false" onAction="#exit" text="EXIT WITHOUT SAVING"/>
+            </Menu>
+        </MenuBar>
+
+    </top>
+</BorderPane>
+

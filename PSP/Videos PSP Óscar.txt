@@ -127,8 +127,57 @@ _____________________________________________________________________________
 
 19/01
 
-8::55 - librerías
+8:55 - librerías
 
 8:58 - dependencias
 
 9:22 - Generar una clase
+
+9:51 - Rquisitos trabajo
+
+10:22 - firmar
+
+10:27 - (foto)
+Tabla user: username, pass
+Table de recursos: descripción del recurso/nombre y contraseña del recurso (cifrado asimetricamente con una clave asimetrica) y usuario que ha puesto la contraseña del recurso
+Tabla permisos: username, clave asimetrica firmada con la clave pública del usuario y firma del que lo ha hecho
+_____________________________________________________________________________
+
+2/02
+
+8:55 - librerías
+
+9:01 - CommandLineRunner
+
+9:05 - Configurar logback
+
+9:11 - Validaciones automáticas
+
+9:16 - Seguridad en spring
+
+9:37 - CONFIGURACIÓN CLASE CONFIGURACIÓN
+_____________________________________________________________________________
+
+6/02
+
+10:31 - Autenticaciones
+
+10:44 - Hacer login
+
+10:58 - Como securizar (poner secure) mirar en RestAlumnos
+_____________________________________________________________________________
+
+7/02
+
+12:48 - sesión
+
+12:49 - peguitas userdetail
+
+13:34 - MIRAR
+_____________________________________________________________________________
+
+8/02
+
+TRABAJO - Poner autenticación básica en cada llamada enviando user y pass en cada llamada con un interceptor apollographql.com/docs/kotlin/advanced/authentication.
+
+TRABAJO GORDO - Clave privada en servidor de authentificación y publica en el servidor de graphql. 

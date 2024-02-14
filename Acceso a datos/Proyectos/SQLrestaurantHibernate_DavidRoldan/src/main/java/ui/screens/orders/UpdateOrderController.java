@@ -138,7 +138,7 @@ public class UpdateOrderController extends BaseScreenController {
             a.show();
         } else {
             orderItemList.forEach(orderItem -> orderItem.setOrder(selectedOrder));
-            Order updatedorder = new Order(selectedOrder.getId(), LocalDateTime.now(), customerComboBox.getSelectionModel().getSelectedItem(), tableComboBox.getSelectionModel().getSelectedItem());
+            Order updatedorder = new Order(selectedOrder.getId(), LocalDateTime.now(), customerComboBox.getSelectionModel().getSelectedItem(), tableComboBox.getSelectionModel().getSelectedItem(), orderItemList);
             orderService.update(updatedorder).peek(orderInt -> {
                         if (orderInt == 0) {
                             Alert a = new Alert(Alert.AlertType.INFORMATION);
@@ -146,7 +146,7 @@ public class UpdateOrderController extends BaseScreenController {
                             a.setContentText(Constants.ORDER_UPDATED_SUCCESSFULLY);
                             a.setHeaderText(null);
                             a.show();
-                            orderItemService.update(orderItemList);
+                            //orderItemService.update(orderItemList);
                             clearAll();
                             setTables();
                         }

@@ -1,0 +1,27 @@
+
+`	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+b
+java:S1192}"GDefine a constant instead of duplicating this literal "weapon" 4 times.(ñòøøùÿÿÿÿ
+b
+java:S1192‰"FDefine a constant instead of duplicating this literal "value" 4 times.(ã¼İşÿÿÿÿ
+d
+java:S1192…"HDefine a constant instead of duplicating this literal "element" 7 times.(£åòŒşÿÿÿÿ
+d
+java:S1192"IDefine a constant instead of duplicating this literal "necklace" 4 times.(¯˜Íåüÿÿÿÿ
+f
+java:S1192¡"JDefine a constant instead of duplicating this literal "condition" 4 times.(¦¾ñìûÿÿÿÿ
+\
+java:S1192r"FDefine a constant instead of duplicating this literal "items" 3 times.(€¸¢
+P
+java:S1141I"5Extract this nested try block into a separate method.(­ş´ûÿÿÿÿ
+b	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŒäëÂ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıèˆåÿÿÿÿÿ
+Z
+java:S2147N"DCombine this catch with the one at line 76, which has the same body.(ï­£Ä
+?	java:S106K"+Replace this use of System.out by a logger.(÷³ˆ!
+˜
+java:S1130W"Remove the declaration of thrown exception 'javax.xml.transform.TransformerException', as it cannot be thrown from method's body.(ÌÆàì
+8
+java:S1116×"Remove this empty statement.(Åñ­õşÿÿÿÿ

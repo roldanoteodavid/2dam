@@ -85,7 +85,7 @@ public class OrderXMLImpl implements dao.OrderDAO {
 
         int customerId = orders.get(0).getCustomer_id();
 
-        Path ordersFilePath = Paths.get(Constants.PATH_DATA + Constants.CUSTOMER + customerId + Constants.PATH_XML_ORDERS);
+        Path ordersFilePath = Paths.get(Constants.PATH_DATA + Constants.CUSTOMER + "_" + customerId + "_" + Constants.PATH_XML_ORDERS);
 
         try {
             JAXBContext context = JAXBContext.newInstance(OrdersXML.class);

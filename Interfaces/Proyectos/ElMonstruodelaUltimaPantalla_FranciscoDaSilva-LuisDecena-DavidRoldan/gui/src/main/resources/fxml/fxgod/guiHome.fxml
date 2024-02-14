@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="124.0" layoutY="31.0" prefHeight="125.0" prefWidth="345.0" />
+      <Button layoutX="427.0" layoutY="350.0" prefHeight="25.0" prefWidth="130.0" text="Go to dungeon" onAction="#toDungeon"/>
+      <ComboBox layoutX="18.0" layoutY="188.0" prefWidth="150.0" promptText="Home Options" fx:id="homeOptionsCombo"/>
+      <Label layoutX="282.0" layoutY="334.0" prefHeight="25.0" prefWidth="29.0" text="Vida" fx:id="vidaLabel"/>
+      <Label layoutX="282.0" layoutY="14.0" prefHeight="17.0" prefWidth="37.0" text="Dia" fx:id="diaLabel"/>
+      <ProgressBar layoutX="197.0" layoutY="366.0" prefWidth="200.0" progress="0.0" fx:id="vidaProgressBar"/>
+      <ComboBox layoutX="18.0" layoutY="243.0" prefWidth="150.0" promptText="Merge Crystal" fx:id="mergeCrystalCombo"/>
+      <ComboBox layoutX="427.0" layoutY="243.0" prefWidth="150.0" promptText="Manage spells" fx:id="manageSpellsCombo"/>
+      <ComboBox layoutX="427.0" layoutY="188.0" prefHeight="25.0" prefWidth="150.0" promptText="Upgrade" fx:id="upgradeCombo"/>
+      <ComboBox layoutX="427.0" layoutY="275.0" prefWidth="150.0" promptText="Improve a know spell" fx:id="improveKnowSpellCombo"/>
+      <ComboBox layoutX="427.0" layoutY="275.0" prefWidth="150.0" promptText="Learn a new spell" fx:id="learnNewSpellCombo"/>
+      <Button layoutX="42.0" layoutY="350.0" mnemonicParsing="false" text="Manage storage" onAction="#manageStorage"/>
+   </children>
+</AnchorPane>

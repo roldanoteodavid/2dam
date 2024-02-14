@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MiPrimerCompose_DavidRoldan</string>
+    <string name="name">name</string>
+    <string name="noelementos">no hay suficientes elementos</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="otro">Otro</string>
+    <string name="simpsons">Simpsons</string>
+    <string name="adult">Adult</string>
+    <string name="anterior">Anterior</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="nombre">Nombre</string>
+    <string name="vivo">Vivo</string>
+    <string name="muerto">Muerto</string>
+    <string name="rellenanombre">Rellena el nombre</string>
+    <string name="simpsonupdate">Simpson actualizado</string>
+    <string name="simpsonanyadido">Simpson añadido</string>
+    <string name="simpsoneliminado">Simpson eliminado</string>
+    <string name="erroranyadir">Error al añadir</string>
+    <string name="anyadasimpson">Añada un simpson</string>
+    <string name="profesion">Profesión:</string>
+    <string name="desconocida">Desconocida</string>
+    <string name="noespecificado">No especificado</string>
+    <string name="edad">"Edad  "</string>
+
+    <string-array name="Gender">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Profesiones">
+        <item>Desconocida</item>
+        <item>Estudiante</item>
+        <item>Seguridad Nuclear</item>
+        <item>Payaso</item>
+        <item>Dependiente</item>
+        <item>Paro</item>
+        <item>Tabernero</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

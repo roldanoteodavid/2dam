@@ -1,0 +1,106 @@
+-- Inserts para la tabla 'actores'
+use davidroldan_finalpsp;
+
+-- Inserts adicionales para la tabla 'actores'
+INSERT INTO `actores` (`fecha_nacimiento`, `nacionalidad`, `nombre`) VALUES
+('1985-03-12', 'Canadiense', 'Ryan Gosling'),
+('1980-06-09', 'Estadounidense', 'Natalie Portman'),
+('1970-07-30', 'Británico', 'Jason Statham'),
+('1988-09-22', 'Francesa', 'Lea Seydoux'),
+('1978-11-11', 'Australiano', 'Hugh Jackman'),
+('1979-04-05', 'Estadounidense', 'Michael Fassbender'),
+('1983-01-09', 'Británica', 'Kate Middleton'),
+('1976-08-08', 'Canadiense', 'Shawn Mendes'),
+('1982-02-25', 'Estadounidense', 'Rashida Jones'),
+('1973-06-21', 'Español', 'Pablo Alborán');
+
+-- Inserts adicionales para la tabla 'directores'
+INSERT INTO `directores` (`fecha_nacimiento`, `nacionalidad`, `nombre`) VALUES
+('1952-10-31', 'Neozelandés', 'Peter Jackson'),
+('1973-10-21', 'Estadounidense', 'Christopher Nolan'),
+('1965-05-31', 'Canadiense', 'Denis Villeneuve'),
+('1981-02-17', 'Española', 'Juan Antonio Bayona'),
+('1977-12-26', 'Mexicana', 'Guillermo del Toro'),
+('1971-09-25', 'Sudafricana', 'Neill Blomkamp'),
+('1970-08-24', 'Estadounidense', 'David Ayer'),
+('1985-09-14', 'Estadounidense', 'Amy Winehouse'),
+('1974-07-12', 'Mexicano', 'Gael García Bernal'),
+('1979-06-08', 'Canadiense', 'Michael Cera');
+
+-- Inserts adicionales para la tabla 'generos'
+INSERT INTO `generos` (`nombre`) VALUES
+('Thriller'),
+('Romance'),
+('Fantasía'),
+('Animación'),
+('Aventura'),
+('Suspense'),
+('Comedia Romántica'),
+('Musical'),
+('Biográfica'),
+('Documental');
+
+-- Inserts adicionales para la tabla 'peliculas'
+INSERT INTO `peliculas` (`ano_lanzamiento`, `duracion`, `titulo`, `director_id`) VALUES
+(2001, 180, 'El Señor de los Anillos: La Comunidad del Anillo', 1),
+(2010, 148, 'Origen', 1),
+(2013, 113, 'La Gran Belleza', 3),
+(2016, 108, 'La La Land', 4),
+(2006, 130, 'El Laberinto del Fauno', 5),
+(2015, 115, 'Mad Max: Furia en la carretera', 2),
+(2004, 120, 'El Señor de los Anillos: El Retorno del Rey', 1),
+(2002, 179, 'El Señor de los Anillos: Las Dos Torres', 1),
+(2009, 96, 'Up', 7),
+(2011, 109, 'Los Vengadores', 6);
+
+-- Inserts adicionales para la tabla 'premios'
+INSERT INTO `premios` (`ano`, `categoria`, `nombre`) VALUES
+(2008, 'Mejor Actor', 'Daniel Day-Lewis'),
+(2014, 'Mejor Actriz de Reparto', 'Lupita Nyong''o'),
+(2012, 'Mejor Guión Original', 'Quentin Tarantino'),
+(2019, 'Mejor Director', 'Bong Joon-ho'),
+(2007, 'Mejor Película de Animación', 'Ratatouille'),
+(2005, 'Mejor Actriz', 'Charlize Theron'),
+(2013, 'Mejor Actor de Reparto', 'Jared Leto'),
+(2010, 'Mejor Película Extranjera', 'La gran belleza'),
+(2009, 'Mejor Edición de Sonido', 'The Dark Knight'),
+(2011, 'Mejor Edición', 'The Social Network');
+
+-- Inserts adicionales para la tabla 'peliculas_actores'
+INSERT INTO `peliculas_actores` (`peliculas_actuadas_id`, `actores_id`) VALUES
+(4, 5),
+(5, 4),
+(6, 2),
+(7, 3),
+(8, 1),
+(9, 6),
+(10, 7),
+(11, 8),
+(12, 9),
+(13, 10);
+
+-- Inserts adicionales para la tabla 'peliculas_generos'
+INSERT INTO `peliculas_generos` (`peliculas_id`, `generos_id`) VALUES
+(4, 3),
+(5, 1),
+(6, 2),
+(7, 4),
+(8, 3),
+(9, 5),
+(10, 6),
+(11, 7),
+(12, 8),
+(13, 9);
+
+-- Inserts adicionales para la tabla 'peliculas_premios'
+INSERT INTO `peliculas_premios` (`peliculas_ganadoras_id`, `premios_id`) VALUES
+(6, 5),
+(7, 4),
+(8, 3),
+(9, 2),
+(10, 1),
+(11, 10),
+(12, 9),
+(13, 8),
+(14, 7),
+(15, 6);

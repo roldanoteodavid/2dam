@@ -1,0 +1,70 @@
+.background {
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-color: #b80909;
+}
+.button:hover {
+    -fx-background-color: red;
+}
+.text-field-mio{
+    -fx-background-color: #1d1d1d;
+    -fx-border-width: 10px;
+    -fx-border-color: #b80909;
+    -fx-font-family: 'Grape Nuts', cursive;
+}
+.bienvenida{
+    -fx-font-family: 'Grape Nuts', cursive;
+    -fx-font-size: 50px;
+    -fx-font-weight:  bold;
+
+}
+
+/*Barra de navegacion*/
+.windowBar {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #ebebeb;
+    -fx-border-radius: 10;
+}
+
+.windowBar .close-icon {
+    -mfx-color: red;
+    -fx-opacity: 0.5;
+}
+
+.windowBar .close-icon:hover {
+    -fx-opacity: 1.0;
+}
+
+.windowBar .minimize-icon {
+    -mfx-color: #ffbf37;
+    -fx-opacity: 0.5;
+}
+
+.windowBar .minimize-icon:hover {
+    -fx-opacity: 1.0;
+}
+
+.windowBar .always-on-top-icon {
+    -mfx-color: purple;
+    -fx-opacity: 0.5;
+}
+
+.windowBar .always-on-top-icon:hover {
+    -fx-opacity: 1.0;
+}
+
+.windowBar .always-on-top-icon:always-on-top {
+    -fx-opacity: 1.0;
+}
+
+/*Menu*/
+.menu-bar {
+    -fx-background-color: white;
+    -fx-border: 0;
+}
+
+.menu-bar .menu-item {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}

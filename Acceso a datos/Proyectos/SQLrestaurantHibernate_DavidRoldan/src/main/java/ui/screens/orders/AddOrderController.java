@@ -85,6 +85,7 @@ public class AddOrderController extends BaseScreenController {
         tableComboBox.getSelectionModel().clearSelection();
         customerComboBox.getSelectionModel().clearSelection();
         itemsComboBox.getSelectionModel().clearSelection();
+        orderItemList.clear();
         quantityItemField.clear();
     }
 
@@ -95,7 +96,7 @@ public class AddOrderController extends BaseScreenController {
             a.show();
         } else {
             LocalDateTime now = LocalDateTime.now();
-            Order order = new Order(0, now, customerComboBox.getSelectionModel().getSelectedItem(), tableComboBox.getSelectionModel().getSelectedItem());
+            Order order = new Order(0, now, customerComboBox.getSelectionModel().getSelectedItem(), tableComboBox.getSelectionModel().getSelectedItem(), orderItemList);
             orderService.save(order).peek(orderInt -> {
                         if (orderInt == 0) {
                             Alert a = new Alert(Alert.AlertType.INFORMATION);
@@ -107,14 +108,6 @@ public class AddOrderController extends BaseScreenController {
                         }
                     })
                     .peekLeft(orderError -> getPrincipalController().sacarAlertError(orderError.getMessage()));
-            Order lastorder = orderService.getLastAdded();
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Constants.YYYY_MM_DD_T_HH_MM_SS);
-            LocalDateTime nowf = LocalDateTime.parse(now.format(formatter), formatter);
-            if (lastorder.getDate().getMinute() == nowf.getMinute() && (lastorder.getDate().getSecond() == nowf.getSecond() || lastorder.getDate().getSecond() == nowf.getSecond() + 1)) {
-                orderItemList.forEach(orderItem -> orderItem.setOrder(lastorder));
-                orderItemService.save(orderItemList);
-                orderItemList.clear();
-            }
         }
     }
 

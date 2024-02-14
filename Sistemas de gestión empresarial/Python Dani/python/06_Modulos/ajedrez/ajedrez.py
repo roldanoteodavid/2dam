@@ -16,7 +16,7 @@ if __name__ == "__main__":
         try:
             num_damas = int(sys.argv[2])
             tablero = Tablero()
-            tablero.pintar_tablero(num_damas)
+            tablero.pintar_tablero_con_damas(num_damas)
         except ValueError:
             print("Error: El argumento después de -n debe ser un número entero.")
     else:

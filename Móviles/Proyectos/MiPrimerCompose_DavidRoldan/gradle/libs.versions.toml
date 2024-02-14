@@ -1,0 +1,17 @@
+[versions]
+fragmentKtx = "1.6.2"
+hiltAndroid = "2.48"
+hiltAndroidCompiler = "2.48"
+timber = "5.0.1"
+roomRuntime = "2.6.1"
+roomCompiler = "2.6.1"
+roomKtx = "2.6.1"
+
+[libraries]
+fragmentKtx-libr = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+hiltAndroid-libr = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hiltAndroidCompiler-libr = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+timber-libr = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+roomRuntime-libr = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+roomCompiler-libr = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+roomKtx-libr = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }

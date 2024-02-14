@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "65b241af6034b4f403ec6e01"
+  },
+  "first_name": "John",
+  "last_name": "Smith",
+  "email": "john.smith@hotmail.com",
+  "phone": "57411185",
+  "date_of_birth": "2001-09-09",
+  "orders": [
+    {
+      "order_date": "2023-09-10T22:30:00",
+      "table_id": 2,
+      "order_items": [
+        {
+          "menu_item_id": 3,
+          "quantity": 2
+        },
+        {
+          "menu_item_id": 4,
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b241af6034b4f403ec6e02"
+  },
+  "first_name": "Ann",
+  "last_name": "Johnson",
+  "email": "ann.johnson@gmail.com",
+  "phone": "485234911",
+  "date_of_birth": "2000-04-17",
+  "orders": [
+    {
+      "order_date": "2023-09-11T14:15:00",
+      "table_id": 3,
+      "order_items": [
+        {
+          "menu_item_id": 1,
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b241af6034b4f403ec6e03"
+  },
+  "first_name": "Christopher",
+  "last_name": "Mann",
+  "email": "chris.mann@webmail.com",
+  "phone": "465834578",
+  "date_of_birth": "1997-10-11",
+  "orders": []
+},
+{
+  "_id": {
+    "$oid": "65b241af6034b4f403ec6e04"
+  },
+  "first_name": "Alba",
+  "last_name": "Donner",
+  "email": "nat.donner@gmail.com",
+  "date_of_birth": "1986-10-23",
+  "orders": []
+},
+{
+  "_id": {
+    "$oid": "65b241af6034b4f403ec6e05"
+  },
+  "first_name": "Julián",
+  "last_name": "Perez",
+  "email": "aperez@gmail.com",
+  "phone": "123123123",
+  "date_of_birth": "2023-10-31",
+  "orders": [
+    {
+      "order_date": "2023-11-15T12:49:28",
+      "table_id": 3,
+      "order_items": [
+        {
+          "menu_item_id": 4,
+          "quantity": 5
+        },
+        {
+          "menu_item_id": 3,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}]

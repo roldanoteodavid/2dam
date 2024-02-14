@@ -3,3 +3,29 @@ cd C:\Users\david\Documents\DAM\Segundo\Sistemas de gestión empresarial\Python 
 cd C:\Users\david\Documents\DAM\Segundo\Sistemas de gestión empresarial\Python Dani\python
 
 python3.exe -m notebook
+----------------------------------------------------------------
+Instalación:
+Desde Microsoft Store instala python 3.11
+pip3  install numpy
+pip3  install matplotlib
+pip3  install random2
+pip3 install pandas
+pip3 install seaborn
+pip3 install jupyterlab notebook
+python3.exe -m notebook
+----------------------------------------------------------------
+SIN PRESENTACIÓN:
+Nota examen 1: 8,225*0,35 = 2,87875
+Nota ejercicio: 2
+Nota examen 2: 8,8*0,45 = 3,96
+
+TOTAL = 2,87875 + 2 + 3,96 = 8,83875
+
+----------------------------------------------------------------
+CON PRESENTACIÓN:
+Nota ejercicios: 2
+Presentación: 0
+Nota examen 1: 8,225*0,3 = 2,4675
+Nota examen 1: 8,8*0,4 = 3,52
+
+TOTAL = 7,98

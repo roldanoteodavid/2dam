@@ -1,0 +1,21 @@
+
+œ
+java:S1186v"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô­´êÿÿÿÿÿ
+
+java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÑ¤Àıÿÿÿÿ
+
+java:S4144"cUpdate this method so that its implementation is not identical to "partidaNuevaInicio" on line 122.(Š¹ãÏÿÿÿÿÿ
+
+java:S4144ˆ"cUpdate this method so that its implementation is not identical to "partidaNuevaInicio" on line 122.(µ×š•ÿÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(†•öİ
+V	java:S125-"<This block of commented-out lines of code should be removed.(”´ÿÿÿÿÿ
+V
+java:S1854q";Remove this useless assignment to local variable "dungeon".(ÀÌøÚøÿÿÿÿ
+G
+java:S1481q",Remove this unused "dungeon" local variable.(ÀÌøÚøÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(Áñ½ùÿÿÿÿ
+V	java:S125{"<This block of commented-out lines of code should be removed.(ŒŠ€øÿÿÿÿ
+R	java:S125‚"<This block of commented-out lines of code should be removed.(ô×Ú—
+R	java:S125‰"<This block of commented-out lines of code should be removed.(‡¤Í
+I
+java:S1144"2Remove this unused private "cargarDungeon" method.(¥Œ ÷

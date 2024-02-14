@@ -1,22 +1,18 @@
 class Ficha:
-    estado = 'tb_a1'
-    visible = false
-    x=0
-    y=0
-
-    def __init__(self, estado='tb_a1', visible):
+    def __init__(self, estado='tb_a1', visible=False, x=0, y=0):
         self.estado = estado
         self.visible = visible
+        self.x = x
+        self.y = y
 
     def get_pos(self):
-        return estado.split("_")[1]
+        return self.estado.split("_")[1]
 
     def get_tipo(self):
-        return estado.split("_")[0][0]
+        return self.estado.split("_")[0][0]
 
-    def get_tipo(self):
-        return estado.split("_")[0][1]
+    def get_color(self):
+        return self.estado.split("_")[0][1]
 
-    def image_location():
-        return "images/"+estado.split("")[0]+".png"
-    
+    def image_location(self):
+        return "images/" + self.estado.split("_")[0] + ".png"

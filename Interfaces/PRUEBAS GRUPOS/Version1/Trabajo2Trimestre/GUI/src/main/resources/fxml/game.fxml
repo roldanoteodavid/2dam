@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: TAN;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screens.GameController">
+    <Button layoutX="420.0" layoutY="44.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="ATTACK">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button layoutX="517.0" layoutY="44.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="FLEE">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Label layoutX="475.0" layoutY="92.0" text="Fight">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+   <Pane layoutX="14.0" layoutY="14.0" prefHeight="289.0" prefWidth="374.0" style="-fx-background-color: Wheat; -fx-border-color: black;">
+      <children>
+         <Label layoutX="9.0" layoutY="7.0" text="DAY 1">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="9.0" layoutY="25.0" text="HP 10/10">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="9.0" layoutY="40.0" text="Energy 8/10">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="10.0" layoutY="58.0" text="Singa 20">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="246.0" layoutY="7.0" text="Rings 1/2">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="246.0" layoutY="25.0" text="Necklace 0/1">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="247.0" layoutY="43.0" text="Weapon 1/1">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+         <Label layoutX="246.0" layoutY="61.0" text="Crystal carrier 1/1">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+      </children>
+   </Pane>
+   <Pane layoutX="14.0" layoutY="316.0" prefHeight="73.0" prefWidth="374.0" style="-fx-background-color: Wheat; -fx-border-color: black;">
+      <children>
+         <Label layoutX="8.0" layoutY="9.0" text="There is a monster, what do you want to do?">
+            <font>
+               <Font name="DejaVu Serif Bold" size="12.0" />
+            </font>
+            <effect>
+               <Glow />
+            </effect>
+         </Label>
+      </children>
+   </Pane>
+   <Label layoutX="473.0" layoutY="117.0" text="Spell 1">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <Glow />
+      </effect>
+   </Label>
+   <Label layoutX="473.0" layoutY="144.0" text="Spell 2">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <Glow />
+      </effect>
+   </Label>
+   <Button layoutX="463.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="HOME">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <DropShadow />
+      </effect>
+   </Button>
+   <Button layoutX="480.0" layoutY="241.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="N">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <DropShadow />
+      </effect>
+   </Button>
+   <Button layoutX="481.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="S">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <DropShadow />
+      </effect>
+   </Button>
+   <Button layoutX="536.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="E">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>
+      <effect>
+         <DropShadow />
+      </effect>
+   </Button>
+   <Button layoutX="421.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: SEASHELL;" text="W">
+      <font>
+         <Font name="DejaVu Serif Bold" size="12.0" />
+      </font>c
+      <effect>
+         <DropShadow />
+      </effect>
+   </Button>
+</AnchorPane>

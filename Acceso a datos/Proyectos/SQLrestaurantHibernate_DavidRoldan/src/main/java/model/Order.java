@@ -29,7 +29,7 @@ public class Order {
     @Column(name = "table_id")
     private int table_id;
 
-    @OneToMany(mappedBy = "order", cascade = CascadeType.PERSIST)
+    @OneToMany(mappedBy = "order", cascade = {CascadeType.PERSIST, CascadeType.REMOVE }/*, fetch = FetchType.EAGER*/)
     private List<OrderItem> orderItems;
 
     public Order(int id, LocalDateTime date, int customer_id, int table_id) {

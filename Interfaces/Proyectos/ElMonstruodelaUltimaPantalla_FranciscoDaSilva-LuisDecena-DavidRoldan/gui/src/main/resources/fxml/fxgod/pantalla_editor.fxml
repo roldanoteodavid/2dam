@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+    <TreeView prefHeight="500.0" prefWidth="248.0" />
+
+    <Label layoutX="473.0" layoutY="50.0" prefHeight="17.0" text="Room" textAlignment="RIGHT">
+        <font>
+            <Font name="Arial" size="14" />
+        </font>
+    </Label>
+    
+
+    <Button layoutX="248.0" layoutY="-4.0" mnemonicParsing="false" onAction="#loginButtonClicked" text="+">
+        <font>
+            <Font name="Arial" size="20" />
+        </font>
+    </Button>
+
+    <Button layoutX="277.0" layoutY="128.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="37.0" prefWidth="177.0" text="Añadir enemigo">
+        <font>
+            <Font name="Arial" size="20" />
+        </font>
+    </Button>
+
+    <Button layoutX="277.0" layoutY="232.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="37.0" prefWidth="177.0" text="Añadir objeto">
+        <font>
+            <Font name="Arial" size="20" />
+        </font>
+    </Button>
+
+
+    <Button layoutX="277.0" layoutY="352.0" mnemonicParsing="false" onAction="#loginButtonClicked" text="Unir a habitacion">
+        <font>
+            <Font name="Arial" size="20" />
+        </font>
+    </Button>
+
+    <ComboBox fx:id="enemigosComboBox" layoutX="526.0" layoutY="134.0" prefHeight="25.0" prefWidth="150.0" promptText="enemy" />
+    <ComboBox fx:id="objetosComboBox" layoutX="526.0" layoutY="232.0" prefHeight="25.0" prefWidth="150.0" promptText="objets" />
+    <ComboBox fx:id="habitacionesComboBox" layoutX="526.0" layoutY="359.0" prefHeight="25.0" prefWidth="150.0" promptText="rooms" />
+
+
+
+</AnchorPane>

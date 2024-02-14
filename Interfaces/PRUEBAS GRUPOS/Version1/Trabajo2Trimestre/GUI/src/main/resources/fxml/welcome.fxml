@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: TAN;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.welcome.WelcomeController">
+    <Label layoutX="217.0" layoutY="58.0" text="WELCOME PLAYER">
+        <font>
+            <Font name="DejaVu Serif Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Label layoutX="170.0" layoutY="172.0" text="THE WIZARD'S NIGHTMARE">
+        <font>
+            <Font name="DejaVu Serif Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Label layoutX="297.0" layoutY="115.0" text="TO THE">
+        <font>
+            <Font name="DejaVu Serif Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Button layoutX="323.0" layoutY="298.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: SEASHELL;" text="EXIT">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button layoutX="302.0" layoutY="244.0" mnemonicParsing="false" onAction="#loadGame" style="-fx-background-color: SEASHELL;" text="LOAD GAME">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <stylesheets>
+        <URL value="@/css/style.css" />
+    </stylesheets>
+</AnchorPane>

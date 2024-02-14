@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: TAN;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.save.SaveController">
+    <Label layoutX="170.0" layoutY="50.0" text="THE WIZARD'S NIGHTMARE">
+        <font>
+            <Font name="DejaVu Serif Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Button layoutX="191.0" layoutY="200.0" mnemonicParsing="false" onAction="#saveXML" style="-fx-background-color: SEASHELL;" text="SAVE XML">
+        <font>
+            <Font name="DejaVu Serif Bold" size="16.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Label layoutX="167.0" layoutY="131.0" text="Select the file type you want to save your game in">
+        <font>
+            <Font name="DejaVu Serif Bold" size="16.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Button layoutX="414.0" layoutY="200.0" mnemonicParsing="false" onAction="#saveTXT" style="-fx-background-color: SEASHELL;" text="SAVE TXT">
+        <font>
+            <Font name="DejaVu Serif Bold" size="16.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+</AnchorPane>

@@ -1,0 +1,23 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌØÞ¯
+\
+java:S1659"FDeclare "necklaces" and all following declarations on a separate line.(ñ÷˜Å
+\
+java:S1161":Add the "@Override" annotation above this method signature(¤ªÿ¸ùÿÿÿÿ8¢Û¬î×1
+h
+java:S6201"FReplace this instanceof check and cast with 'instanceof Weapon weapon'(›Þóöþÿÿÿÿ8£Û¬î×1
+l
+java:S6201"JReplace this instanceof check and cast with 'instanceof Necklace necklace'(ß°šòüÿÿÿÿ8£Û¬î×1
+_
+java:S6201 "BReplace this instanceof check and cast with 'instanceof Ring ring'(›Û°„8£Û¬î×1
+W
+java:S1161'":Add the "@Override" annotation above this method signature(ôËè¶8£Û¬î×1
+c
+java:S6201V"FReplace this instanceof check and cast with 'instanceof Weapon weapon'(õîœË8¦Û¬î×1
+_
+java:S6201^"BReplace this instanceof check and cast with 'instanceof Ring ring'(Ü²ÏŽ8¦Û¬î×1
+m
+java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ìÈýÿÿÿÿ
+f
+java:S6201j"JReplace this instanceof check and cast with 'instanceof Necklace necklace'(¶õ¶"8§Û¬î×1
+>	java:S108t")Either remove or fill this block of code.(ìç©û

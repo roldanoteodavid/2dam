@@ -71,12 +71,18 @@ public class OrderDaoImpl implements OrderDAO {
         EntityTransaction tx = em.getTransaction();
         try {
             tx.begin();
+            List<OrderItem> orderItems = c.getOrderItems();
+            c.setOrderItems(null);
             em.persist(c);
+            for (OrderItem orderItem : orderItems) {
+                orderItem.setOrder(c);
+                em.persist(orderItem);
+            }
             tx.commit();
             result = Either.right(0);
         } catch (Exception e) {
             if (tx.isActive()) tx.rollback();
-            result = Either.left(new RestaurantError(Constants.ERROR_SAVING_ORDER));
+            result = Either.left(new RestaurantError(Constants.ERROR_SAVING_ORDER+"\n"+e.getMessage()));
         } finally {
             if (em != null) em.close();
         }
@@ -95,12 +101,24 @@ public class OrderDaoImpl implements OrderDAO {
         EntityTransaction tx = em.getTransaction();
         try {
             tx.begin();
+
+            em.createQuery("DELETE FROM OrderItem oi WHERE oi.order.id = :orderId")
+                    .setParameter("orderId", c.getId())
+                    .executeUpdate();
+
+            for (OrderItem orderItem : c.getOrderItems()) {
+                em.persist(em.contains(orderItem) ? orderItem : em.merge(orderItem));
+            }
+
+            c.setOrderItems(null);
+
             em.merge(c);
+
             tx.commit();
             result = Either.right(0);
         } catch (Exception e) {
             if (tx.isActive()) tx.rollback();
-            result = Either.left(new RestaurantError(Constants.ERROR_UPDATING_ORDER));
+            result = Either.left(new RestaurantError(Constants.ERROR_UPDATING_ORDER + e.getMessage()));
         } finally {
             if (em != null) em.close();
         }
@@ -115,11 +133,15 @@ public class OrderDaoImpl implements OrderDAO {
 
         try {
             tx.begin();
+//            em.createQuery("DELETE FROM OrderItem oi WHERE oi.order.id = :orderId")
+//                    .setParameter("orderId", c.getId())
+//                    .executeUpdate();
+//            c.setOrderItems(null);
             em.remove(em.merge(c));
             tx.commit();
             result = Either.right(0);
         } catch (Exception ex) {
-            result = Either.left(new RestaurantError(Constants.ERROR_DELETING_ORDER));
+            result = Either.left(new RestaurantError(Constants.ERROR_DELETING_ORDER +"\n"+ex.getMessage()));
         } finally {
             if (em != null) em.close();
         }

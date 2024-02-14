@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: TAN;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.load.LoadController">
+    <Label layoutX="177.0" layoutY="53.0" text="THE WIZARD'S NIGHTMARE">
+        <font>
+            <Font name="DejaVu Serif Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Button fx:id="loadXML" layoutX="177.0" layoutY="308.0" mnemonicParsing="false" onAction="#loadXML" style="-fx-background-color: SEASHELL;" text="LOAD XML" visible="false">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button fx:id="loadTXT" layoutX="488.0" layoutY="308.0" mnemonicParsing="false" onAction="#loadTXT" style="-fx-background-color: SEASHELL;" text="LOAD TXT" visible="false">
+        <font>
+            <Font name="DejaVu Serif Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button layoutX="321.0" layoutY="162.0" mnemonicParsing="false" onAction="#newGame" style="-fx-background-color: SEASHELL;" text="PLAY">
+        <font>
+            <Font name="DejaVu Serif Bold" size="16.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button layoutX="295.0" layoutY="250.0" mnemonicParsing="false" onAction="#load" style="-fx-background-color: SEASHELL;" text="LOAD GAME">
+        <font>
+            <Font name="DejaVu Serif Bold" size="16.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+   <Label fx:id="mensaje" alignment="CENTER" layoutX="24.0" layoutY="358.0" prefHeight="30.0" prefWidth="651.0" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>

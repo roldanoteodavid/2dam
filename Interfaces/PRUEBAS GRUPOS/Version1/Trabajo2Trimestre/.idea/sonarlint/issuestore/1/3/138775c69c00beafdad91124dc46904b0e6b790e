@@ -1,0 +1,15 @@
+
+|
+java:S1104+"ZMake actualDemiurge a static final constant or non-public and provide accessors if needed.(ÈÛáÁşÿÿÿÿ8Ï…Şğ×1
+V
+java:S1444+"4Make this "public static actualDemiurge" field final(ÈÛáÁşÿÿÿÿ8Ï…Şğ×1
+}
+java:S1450 "[Remove the "primaryStage" field and declare it as a local variable in the relevant methods.(ˆ©äÔüÿÿÿÿ8á…Şğ×1
+[
+java:S1117["9Rename "alert" which hides the field declared at line 38.(Ö‰Õïÿÿÿÿÿ8è…Şğ×1
+S
+java:S2696t"6Make the enclosing method "static" or remove this set.(ó©Ê8é…Şğ×1
+P
+java:S1172Š"2Remove this unused method parameter "actionEvent".(˜¬ÿ8ì…Şğ×1
+R
+java:S1068 "0Remove this unused "primaryStage" private field.(ˆ©äÔüÿÿÿÿ8ì…Şğ×1

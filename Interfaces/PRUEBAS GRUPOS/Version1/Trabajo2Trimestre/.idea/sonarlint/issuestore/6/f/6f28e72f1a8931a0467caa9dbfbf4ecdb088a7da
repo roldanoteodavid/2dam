@@ -1,0 +1,28 @@
+
+h	java:S112æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8°‘Ñğ×1
+d
+java:S1192c"GDefine a constant instead of duplicating this literal "weapon" 4 times.(öí8±‘Ñğ×1
+h
+java:S1192_"FDefine a constant instead of duplicating this literal "value" 4 times.(ß…²ùÿÿÿÿ8±‘Ñğ×1
+j
+java:S1192^"HDefine a constant instead of duplicating this literal "element" 7 times.(­éç×ıÿÿÿÿ8±‘Ñğ×1
+f
+java:S1192f"IDefine a constant instead of duplicating this literal "necklace" 4 times.(ëÂı8±‘Ñğ×1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†©âì8³‘Ñğ×1
+P
+java:S2755#"3Disable access to external entities in XML parsing.(²µŸš8ô’Ñğ×1
+\
+java:S1854‚">Remove this useless assignment to local variable "spellLevel".(»üÕ¢8€“Ñğ×1
+M
+java:S1481‚"/Remove this unused "spellLevel" local variable.(»üÕ¢8‡“Ñğ×1
+?	java:S131…""Add a default case to this switch.(¡õİæ8‡“Ñğ×1
+p
+java:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Æ‡Ú8ˆ“Ñğ×1
+\
+java:S1854ş">Remove this useless assignment to local variable "spellLevel".(»üÕ¢8“Ñğ×1
+M
+java:S1481ş"/Remove this unused "spellLevel" local variable.(»üÕ¢8‘“Ñğ×1
+?	java:S131€""Add a default case to this switch.(¡õİæ8’“Ñğ×1
+u
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ÖÆÀçøÿÿÿÿ8““Ñğ×1
+Y	java:S125®"<This block of commented-out lines of code should be removed.(ıß•ÿ8•“Ñğ×1

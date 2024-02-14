@@ -1,0 +1,15 @@
+clave privada y clave pública del servidor antes de empezar con un main para crear keystore
+
+verificar contraseñas con matches, no hace falta hashear y comprobar.
+
+crear objeto cache con singleton para guardar la contraseña del usuario? e inject en todos los sitios que lo necesite
+
+1. crear keystore, meter clave privada app, certificado app firmado con clave privada (autofirmado). El keystore tiene una contraseña guardada en config. La contraseña para abrir la clave privada es la misma. 
+
+2. Registro usuario (user y pass). Genero clave privada y clave pública, para guardar en el keystore necesito un indice que será el nombre del usuario y la contraseña para guardar la del usuario también. Guardar clave pública sin contraseña
+
+3. Crear recurso. Para esto el usuario tiene que haber hecho login y, por tanto, tengo su pass y contraseña. Con la pass del config accedo al keystrore para coger el certificado público además del usuario. 
+
+3.1 Recurso(Recurso y contraseña recurso (encriptada con clave simétrica aleatoria para entrar (secure random y base 64)), nombre usuario y firma). La clave simetrica aleatoria se guarda en tabla visualizadores cifrada con clave privada.
+
+4. Cuando firmas con clave privada estás cifrando también.

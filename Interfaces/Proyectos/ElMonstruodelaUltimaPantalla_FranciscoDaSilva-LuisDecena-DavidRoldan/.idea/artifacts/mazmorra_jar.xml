@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mazmorra:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mazmorra_jar</output-path>
+    <root id="archive" name="mazmorra.jar">
+      <element id="module-output" name="game" />
+      <element id="module-output" name="ElMonstruoDeLaPrimeraPantalla_FranciscoDaSilva-LuisDecena-DavidRoldan" />
+      <element id="module-output" name="loaderManual" />
+      <element id="module-output" name="console" />
+      <element id="module-output" name="gui" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/4.0.3.Final/weld-core-impl-4.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18/javafx-fxml-18-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18/javafx-base-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.0/jakarta.enterprise.cdi-api-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/se/weld-se-core/4.0.3.Final/weld-se-core-4.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18/javafx-controls-18-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18/javafx-base-18-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18/javafx-fxml-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/probe/weld-probe-core/4.0.3.Final/weld-probe-core-4.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/environment/weld-environment-common/4.0.3.Final/weld-environment-common-4.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/weld-api/4.0.SP1/weld-api-4.0.SP1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18/javafx-controls-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jboss/weld/weld-spi/4.0.SP1/weld-spi-4.0.SP1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/interceptor/jakarta.interceptor-api/2.0.0/jakarta.interceptor-api-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

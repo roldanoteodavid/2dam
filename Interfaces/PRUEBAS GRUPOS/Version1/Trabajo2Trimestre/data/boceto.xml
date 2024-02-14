@@ -1,0 +1,92 @@
+<demiurge>
+    <day></day>
+    <dungeon>
+        <rooms>
+            <room>
+                <id></id>
+                <description></description>
+                <roomSet>
+                    <domain></domain>
+                    <value></value>
+                    <items>
+                        <item>
+                            <domain></domain>
+                            <value></value>
+                        </item>
+                    </items>
+                </roomSet>
+                <creature>
+                    <name></name>
+                    <life></life>
+                    <hit></hit>
+                    <domain></domain>
+                    <spell>
+                        <ElectricAttack></ElectricAttack>
+                    </spell>
+                </creature>
+                <doors>
+                    <door>
+                        <siteA></siteA>
+                        <siteB></siteB>
+                    </door>
+                </doors>
+            </room>
+        </rooms>
+    </dungeon>
+    <Home> //room tipo home
+        <description></description>
+        <comfort></comfort>
+        <singa></singa>
+        <singa_capacity></singa_capacity>
+        <chest>
+            <chest_capacity></chest_capacity>
+        </chest>
+        <Knowledge>
+            <ElectricAttack></ElectricAttack>
+            <FireAttack></FireAttack>
+            <AirAttack></AirAttack>
+        </Knowledge>
+        <weapon>
+            <value></value>
+        </weapon>
+    </Home>
+    <Wizard>
+        <name></name>
+        <life></life>
+        <lifeMax></lifeMax>
+        <energy></energy>
+        <energyMax></energyMax>
+        <wearables>
+            <maxWeapons></maxWeapons>
+            <maxNecklaces></maxNecklaces>
+            <maxRings></maxRings>
+        </wearables>
+        <crystalCarrier>
+            <capacity></capacity>
+        </crystalCarrier>
+        <jewelryBag>
+            <crystalBagCapacity></crystalBagCapacity>
+        </jewelryBag>
+        <Knowledge>
+            <ElectricAttack></ElectricAttack>
+            <FireAttack></FireAttack>
+            <AirAttack></AirAttack>
+        </Knowledge>
+        <items>
+            <item>
+                <domain></domain>
+                <value></value>
+            </item>
+        </items>
+    </Wizard>
+    <Conditions>
+        <VisitAllRoomsCondition></VisitAllRoomsCondition>
+        <KillAllCreaturesCondition></KillAllCreaturesCondition>
+    </Conditions>
+</demiurge>
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+package com.example.apollo_davidroldan.common
+
+object Constantes {
+    const val AUTHORIZATION = "Authorization"
+    const val BEARER = "Bearer "
+    const val USERORPASS_INCORRECT = "Usuario o contraseña incorrectos"
+    const val USER_EXISTS = "El usuario ya existe"
+    const val ERROR_DESCONOCIDO = "Error desconocido"
+    const val AUTOR = "autor"
+    const val AUTORID = "authorId"
+    const val NAME = "name"
+    const val BIRTHDATE = "birthDate"
+    const val LIBRO = "libro"
+    const val BOOKID = "bookId"
+    const val TITLE = "title"
+    const val PUBLICATIONYEAR = "publicationYear"
+    const val REFRESH_TOKEN = "RefreshToken"
+    const val APP_DB = "app.db"
+    const val CUSTOMERS = "customers"
+    const val ORDERS = "orders"
+    const val DATA_STORE = "data_store"
+    const val REFRESHTOKEN = "refresh_token"
+    const val ACCESS_TOKEN = "access_token"
+    const val DISMISS = "Dismiss"
+}

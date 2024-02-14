@@ -96,22 +96,7 @@ public class DeleteOrderController extends BaseScreenController {
                 alert.setTitle(Constants.DELETE_ORDER);
                 alert.setContentText(Constants.DO_YOU_WANT_TO_DELETE_THE_SELECTED_ORDER);
                 Optional<ButtonType> res = alert.showAndWait();
-                res.ifPresent(buttonType -> {
-                    if (buttonType == ButtonType.YES) {
-                        orderItemService.delete(selectedOrder);
-                        orderService.delete(selectedOrder).peek(orderInt -> {
-                                    if (orderInt == 0) {
-                                        Alert a = new Alert(Alert.AlertType.INFORMATION);
-                                        a.setTitle(Constants.ORDER_DELETED);
-                                        a.setHeaderText(null);
-                                        a.setContentText(Constants.THE_ORDER_HAS_BEEN_DELETED_SUCCESSFULLY);
-                                        a.show();
-                                        setTables();
-                                    }
-                                })
-                                .peekLeft(customerError -> getPrincipalController().sacarAlertError(customerError.getMessage()));
-                    }
-                });
+                deleteOrder(res);
             } else {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.getButtonTypes().remove(ButtonType.OK);
@@ -120,22 +105,7 @@ public class DeleteOrderController extends BaseScreenController {
                 alert.setTitle(Constants.DELETE_ORDER_AND_ORDERITEMS);
                 alert.setContentText(Constants.THE_SELECTED_ORDER_HAS_ORDERITEMS_DO_YOU_WANT_TO_DELETE_THE_ORDER_AND_ITS_ORDERITEMS);
                 Optional<ButtonType> res = alert.showAndWait();
-                res.ifPresent(buttonType -> {
-                    if (buttonType == ButtonType.YES) {
-                        orderItemService.delete(selectedOrder);
-                        orderService.delete(selectedOrder).peek(customerInt -> {
-                                    if (customerInt == 0) {
-                                        Alert a = new Alert(Alert.AlertType.INFORMATION);
-                                        a.setTitle(Constants.ORDER_DELETED);
-                                        a.setHeaderText(null);
-                                        a.setContentText(Constants.THE_ORDER_HAS_BEEN_DELETED_SUCCESSFULLY);
-                                        a.show();
-                                        setTables();
-                                    }
-                                })
-                                .peekLeft(customerError -> getPrincipalController().sacarAlertError(customerError.getMessage()));
-                    }
-                });
+                deleteOrder(res);
             }
         } else {
             Alert a = new Alert(Alert.AlertType.INFORMATION);
@@ -144,5 +114,23 @@ public class DeleteOrderController extends BaseScreenController {
             a.setContentText(Constants.TO_DELETE_AN_ORDER_SELECT_IT_FIRST);
             a.show();
         }
+    }
+
+    private void deleteOrder(Optional<ButtonType> res) {
+        res.ifPresent(buttonType -> {
+            if (buttonType == ButtonType.YES) {
+                orderService.delete(selectedOrder).peek(customerInt -> {
+                            if (customerInt == 0) {
+                                Alert a = new Alert(Alert.AlertType.INFORMATION);
+                                a.setTitle(Constants.ORDER_DELETED);
+                                a.setHeaderText(null);
+                                a.setContentText(Constants.THE_ORDER_HAS_BEEN_DELETED_SUCCESSFULLY);
+                                a.show();
+                                setTables();
+                            }
+                        })
+                        .peekLeft(customerError -> getPrincipalController().sacarAlertError(customerError.getMessage()));
+            }
+        });
     }
 }

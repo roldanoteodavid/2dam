@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.screen.home.HomeController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="42.0" layoutY="32.0" prefHeight="195.0" prefWidth="521.0" />
+      <TextField fx:id="inputField" layoutX="197.0" layoutY="243.0" prefHeight="25.0" prefWidth="100.0" promptText="Input" />
+
+      <Button layoutX="333.0" layoutY="243.0" onAction="#enviar" prefHeight="26.0" prefWidth="64.0" text="Enviar" />
+      <Button layoutX="427.0" layoutY="350.0" onAction="#toDungeon" prefHeight="25.0" prefWidth="130.0" text="Go to dungeon" />
+      <Label fx:id="vidaLabel" layoutX="282.0" layoutY="334.0" prefHeight="25.0" prefWidth="29.0" text="Vida" />
+      <Label fx:id="diaLabel" layoutX="282.0" layoutY="14.0" prefHeight="17.0" prefWidth="37.0" text="Dia" />
+      <ProgressBar fx:id="vidaProgressBar" layoutX="197.0" layoutY="366.0" prefWidth="200.0" progress="0.0" />
+      <Button layoutX="42.0" layoutY="350.0" mnemonicParsing="false" onAction="#manageStorage" text="Manage storage" />
+   </children>
+</AnchorPane>

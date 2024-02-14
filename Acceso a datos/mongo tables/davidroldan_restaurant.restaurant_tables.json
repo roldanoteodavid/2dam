@@ -1,0 +1,20 @@
+[{
+  "_id": 1,
+  "number_of_seats": 4
+},
+{
+  "_id": 2,
+  "number_of_seats": 6
+},
+{
+  "_id": 3,
+  "number_of_seats": 4
+},
+{
+  "_id": 4,
+  "number_of_seats": 2
+},
+{
+  "_id": 5,
+  "number_of_seats": 2
+}]

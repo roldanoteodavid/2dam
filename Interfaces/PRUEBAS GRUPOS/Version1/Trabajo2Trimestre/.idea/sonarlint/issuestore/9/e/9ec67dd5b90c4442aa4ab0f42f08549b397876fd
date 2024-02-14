@@ -1,0 +1,9 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×“‚ï×1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ä·‚ï×1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ä·‚ï×1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»¼Ã—8¼†ËðÓ1
+l
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¿¿þ¾8Ú“‚ï×1
+a
+java:S2147"DCombine this catch with the one at line 20, which has the same body.(ýàÑÎ8ê·‚ï×1

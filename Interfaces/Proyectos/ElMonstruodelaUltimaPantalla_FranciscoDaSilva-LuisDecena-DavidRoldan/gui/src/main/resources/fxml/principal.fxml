@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="root" prefHeight="500.0" prefWidth="900.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ui.screen.principal.PrincipalController">
+    <top>
+        <MenuBar fx:id="menuPrincipal">
+            <menus>
+                <Menu fx:id="menuFile" mnemonicParsing="false" text="Options">
+                    <items>
+                        <MenuItem fx:id="menuItemExit" mnemonicParsing="false" onAction="#exit" text="Exit"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuGuardar" mnemonicParsing="false" text="Guardar">
+                    <items>
+                        <MenuItem fx:id="guardarTXT" mnemonicParsing="false" onAction="#menuGuardar" text="Guardar en TXT"/>
+                        <MenuItem fx:id="guardarXML" mnemonicParsing="false" onAction="#menuGuardar" text="Guardar en TXT"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuCargar" mnemonicParsing="false" text="Cargar">
+                    <items>
+                        <MenuItem fx:id="cargarTXT" mnemonicParsing="false" onAction="#menuCargar" text="Cargar en TXT"/>
+                        <MenuItem fx:id="cargarXML" mnemonicParsing="false" onAction="#menuCargar" text="Cargar en XML"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuGenerarInforme" mnemonicParsing="false" text="General informes">
+                    <items>
+                        <MenuItem fx:id="generarInforme" mnemonicParsing="false" onAction="#menuGenerarInforme" text="Generar informe"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

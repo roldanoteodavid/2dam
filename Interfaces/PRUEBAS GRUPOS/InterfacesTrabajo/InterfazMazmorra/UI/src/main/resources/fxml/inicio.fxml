@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ui.pantallas.inicio.InicioController"
+            prefHeight="500.0" prefWidth="500.0">
+
+<!--    <ImageView fx:id="imagenView" />-->
+
+    <Button layoutX="200.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" text="Exit Game" />
+    <Button layoutX="200.0" layoutY="60.0" mnemonicParsing="false" onAction="#goToDungeon" text="Go to Dungeon" />
+    <Button layoutX="200.0" layoutY="110.0" mnemonicParsing="false" onAction="#sleep" text="Sleep" />
+    <Button layoutX="200.0" layoutY="160.0" mnemonicParsing="false" onAction="#recoverLifePoints" text="Recover HP" />
+    <Button layoutX="200.0" layoutY="210.0" mnemonicParsing="false" onAction="#mergeCrystals" text="Merge Crystals" />
+    <Button layoutX="200.0" layoutY="260.0" mnemonicParsing="false" onAction="#upgradeChracteristics" text="Upgrade Characteristics" />
+    <Button layoutX="200.0" layoutY="310.0" mnemonicParsing="false" onAction="#manageSpells" text="Manage Spells" />
+    <Button layoutX="200.0" layoutY="360.0" mnemonicParsing="false" onAction="#manageStorage" text="Manage Storage" />
+
+</AnchorPane>
